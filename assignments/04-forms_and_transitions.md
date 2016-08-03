@@ -1,4 +1,5 @@
-Assignment #3
+# Forms & Transitions
+
 Take your fan web page and modify it in these ways:
 1. Put the CSS in a separate file (always separate HTML and CSS)
 2. Use the hover pseudo selector to change something on your page
