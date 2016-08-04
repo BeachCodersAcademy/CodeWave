@@ -6,7 +6,7 @@
   * Does NOT use 'top, left, right, and bottom' attributes
 * Relative
   * Uses 'top, left, right, and bottom' attributes *based on elements around it*
-  * Relative to positions of elements around it
+  * Relative to where it would have been
   * Other content will not be adjusted to fit into any gap left by the element
   * Behaves the same as 'static' unless you add some extra properties
   * **Does not affect other elements on the page**
