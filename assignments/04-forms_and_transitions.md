@@ -1,32 +1,27 @@
 # Forms & Transitions
 
-Create a "Contact Me" form
-You can start a new project or add it to an existing one.
-Make sure to use the following input tag types:
+Create a "Contact Me" form or any form you like.
+
+Make sure to use at least 4 of the following input tag types:
 
 * text
 * password
 * date
 * radio
 * checkbox
-
-Try out some other input types, such as:
-
 * email
 * color
-* date
 * textarea
+* number
+* range
+* tel
+* time
+* url
 
-note: textarea is its own tag. it is not a type of input
+Note: textarea is its own tag. it is not a type of input
 
-Include an input tag with a type="submit" attribute at the very end, otherwise you won't be able to send this form
+Include an input tag with a type="submit" attribute at the very end, otherwise you won't be able to send this form.
 
-Hook your form up to formspree.io. sadly, the form won't actually work until we get these sites hosted.
+Hook your form up to formspree.io. Sadly, the form won't actually work until we get these sites hosted.
 
-Creating a navbar
-* Create a navbar that is fixed to the top of the screen
-* Make sure the buttons in the navbar line up next to one another, rather than stacking.
-hint: try the display:inline-block property
-* Make each of these buttons clickable links that take you to other pages on your site
-* Try sliding a made up "brand" image into the navbar. 
-* bonus: try using pseudo-selectors and the transition property to make the individual navbar buttons highlight when the mouse hovers over them.
+Use CSS Transitions to spruce up your form or any other web page you have made thus far.
