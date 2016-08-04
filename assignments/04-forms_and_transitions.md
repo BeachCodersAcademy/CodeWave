@@ -22,6 +22,6 @@ Note: textarea is its own tag. it is not a type of input
 
 Include an input tag with a type="submit" attribute at the very end, otherwise you won't be able to send this form.
 
-Hook your form up to formspree.io. Sadly, the form won't actually work until we get these sites hosted.
+Hook your form up to [formspree.io](https://formspree.io/). Sadly, the form won't actually work until we get these sites hosted.
 
 Use CSS Transitions to spruce up your form or any other web page you have made thus far.
