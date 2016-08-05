@@ -26,7 +26,7 @@ By the end of these days you are to master these checkpoints
 * Understand how transitions work (transition -> hover).
 
 #### Day 5 - Bootstrap
-* How to import Bootstrap to a web page (w/ proper ordering).
+* How to correctly set up a grid layout.
 * How to target specific elements of Bootstrap components (hint: inspector).
 
 #### Day 6 - JavaScript
