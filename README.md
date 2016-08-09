@@ -30,26 +30,32 @@ By the end of these days you are to master these checkpoints
 * How to target specific elements of Bootstrap components (hint: inspector).
 
 #### Day 6 - JavaScript
+**Notes:** comments, const, let, number, string, boolean, alert, prompt, confirm
 * How to create variables & reassign them.
 * The primitive data types & how they work (String, Number, Boolean).
 
 #### Day 7 - Control Flow
+**Notes:** if, else if, else, truthy, falsie, logical operators, nesting, ternary operator
 * How to create an if-else statement.
 * What an expression is and how they are evaluated ((8 + “9”) -> (“89”) -> (true)).
 
 #### Day 8 - Loops
+**Notes:** while, for, Math object
 * How ‘while loops’ work.
 * How ‘for loops’ work.
 
 #### Day 9 - Objects
+**Notes:** object creation, properties & values, dot notation, bracket notation
 * How to create objects and assign properties & values to them.
 * How to nest objects (i.e. have an object as a value of another object's property).
 
 #### Day 10 - Arrays
+**Notes:** list, array methods, iteration
 * How to declare, insert, & retrieve elements from an array.
 * Understand that arrays are pass-by-reference.
 
 #### Day 11 - Functions
+**Notes:** pass by reference vs pass by value, parameters vs arguments
 * How to declare a function, pass it arguments, and return values.
 * Understand higher order functions (function -> function).
 
