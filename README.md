@@ -74,3 +74,7 @@ By the end of these days you are to master these checkpoints
 #### Day 15 - AJAX & APIs
 * How to make AJAX requests to APIs.
 * How to display specific data the gets returned from from the request.
+
+#### Bonuses
+* git
+* Analytics
