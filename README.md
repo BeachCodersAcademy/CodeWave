@@ -78,3 +78,5 @@ By the end of these days you are to master these checkpoints
 #### Bonuses
 * git
 * Analytics
+* animate.css
+* cookies
