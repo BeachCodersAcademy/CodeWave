@@ -6,14 +6,44 @@
 
 #logo {
   height: 100px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 #navbar {
   font-family: 'Josefin Slab', serif;
   font-size: 120%;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+#navbar a {
+  color: black;
+  transition: color 0.5s, font-size 0.5s;
+}
+
+#navbar a:hover {
+  font-size: 105%;
+  color: pink;
+  text-decoration: none;
 }
 
 .bg-girl {
   background: url('../img/girl.jpg') no-repeat center center;
+}
+
+.jumbo-text {
+  margin-top: 200px;
+  color: #eeeeee;
+  text-shadow: 2px 2px 5px #fe75b4;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 5px;
+  color: white;
+}
+
+.no-padding {
+  padding: 0;
 }
