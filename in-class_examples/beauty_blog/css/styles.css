@@ -1,0 +1,19 @@
+@import 'https://fonts.googleapis.com/css?family=Josefin+Slab';
+
+.center-block {
+  margin: 0 auto;
+}
+
+#logo {
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+#navbar {
+  font-family: 'Josefin Slab', serif;
+  font-size: 120%;
+}
+
+.bg-girl {
+  background: url('../img/girl.jpg') no-repeat center center;
+}
