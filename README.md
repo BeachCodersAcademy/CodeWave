@@ -4,8 +4,6 @@
 
 A link to the videos can be found [here](https://drive.google.com/folderview?id=0B2uG81JQ0lFLWGZ4NUVjakRUSU0&usp=sharing).
 
-A link to the assignments can be found [here](https://github.com/BeachCodersAcademy/CodeWave/tree/master/assignments).
-
 #### Day 1: HTML - [assignment]()
 * How to correctly set up an HTML document.	
 * What a `<div>` tag is and what it is for.
