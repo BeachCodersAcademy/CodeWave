@@ -29,9 +29,9 @@ By the end of these days you are to master these checkpoints
 * How to correctly set up a grid layout (div.row > div.col-...).
 * How to target specific elements of Bootstrap components (hint: inspector).
 
-#### Day 6 - Bootstrap Review
+#### Day 6 - Bootstrap Review & GitHub
 * Fully understand the grid layout and how to make rows within columns.
-* How to use rows to make footers and other elements on the page.
+* Understand the basics of GitHub (commit -> sync).
 
 #### Day 7 - JavaScript
 **Notes:** comments, const, let, number, string, boolean, alert, prompt, confirm
