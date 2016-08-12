@@ -1,5 +1,5 @@
 # Assignment 7
-## Conditional Logic
+## Control Flow
 
 ### Rock Paper Scissors
 
