@@ -3,6 +3,9 @@ This app can do anything from Fantasy Football to a place where people can uploa
 
 You may want to use an API or two. Here are a few simple-to-use ones.
 
+* API Marketplace:
+ * https://market.mashape.com/explore
+
 * weather:
   * https://www.wunderground.com/weather/api/
   * http://openweathermap.org/api
