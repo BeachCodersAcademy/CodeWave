@@ -66,11 +66,15 @@ A link to the videos can be found [here](https://drive.google.com/folderview?id=
 * How to select, modify, & create HTML elements using jQuery.
 * How to handle events (click, mouseover, etc.).
 
-#### Day 15: Bootstrap JS & Media Queries
+#### Day 15: Forms in-depth
+* 
+* 
+
+#### Day 16: Bootstrap JS & Media Queries
 * How to use Bootstrap’s custom JavaScript methods (popover, carousel, etc.).
 * How to use media queries.
 
-#### Day 16: AJAX & APIs - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/apis.md)
+#### Day 17: AJAX & APIs - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/apis.md)
 * How to make AJAX requests to APIs.
 * How to display specific data the gets returned from from the request.
 
@@ -79,3 +83,5 @@ A link to the videos can be found [here](https://drive.google.com/folderview?id=
 * Analytics
 * animate.css
 * cookies
+* functional programming (forEach, map, filter, reduce)
+* classes
