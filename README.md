@@ -44,12 +44,12 @@ A link to the videos can be found [here](https://drive.google.com/folderview?id=
 * How ‘for loops’ work.
 
 #### Day 10: Objects - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/objects.md)
-**Notes:** object creation, properties & values, dot notation, bracket notation
+**Notes:** object creation, properties & values, dot notation, bracket notation, iteration (for in loop), post-object creation assignment
 * How to create objects and assign properties & values to them.
 * How to nest objects (i.e. have an object as a value of another object's property).
 
 #### Day 11: Arrays - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/arrays.md)
-**Notes:** list, array methods, iteration
+**Notes:** list, array methods, iteration (for of loop)
 * How to declare, insert, & retrieve elements from an array.
 * Understand that arrays are pass-by-reference.
 
