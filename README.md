@@ -66,9 +66,9 @@ A link to the videos can be found [here](https://drive.google.com/folderview?id=
 * How to select, modify, & create HTML elements using jQuery.
 * How to handle events (click, mouseover, etc.).
 
-#### Day 15: Forms in-depth
-* 
-* 
+#### Day 15: Forms w/ JavaScript & Animate.css
+* How to get data from HTML forms.
+* How to use Animate.css
 
 #### Day 16: Bootstrap JS & Media Queries
 * How to use Bootstrap’s custom JavaScript methods (popover, carousel, etc.).
@@ -78,10 +78,11 @@ A link to the videos can be found [here](https://drive.google.com/folderview?id=
 * How to make AJAX requests to APIs.
 * How to display specific data the gets returned from from the request.
 
+#### Day 18: Paired Assignment - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/paired_assignment.md)
+
 #### Bonuses
 * git
 * Analytics
-* animate.css
 * cookies
 * functional programming (forEach, map, filter, reduce)
 * classes
