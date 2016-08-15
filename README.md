@@ -44,7 +44,7 @@ A link to the videos can be found [here](https://drive.google.com/folderview?id=
 * How ‘for loops’ work.
 
 #### Day 10: Objects - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/objects.md)
-**Notes:** object creation, properties & values, dot notation, bracket notation, iteration (for in loop), post-object creation assignment
+**Notes:** object creation, properties & values, dot notation, bracket notation, iteration (for in loop), add properties & values after object creation
 * How to create objects and assign properties & values to them.
 * How to nest objects (i.e. have an object as a value of another object's property).
 
