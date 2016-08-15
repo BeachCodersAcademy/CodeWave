@@ -85,3 +85,4 @@ A link to the videos can be found [here](https://drive.google.com/folderview?id=
 * cookies
 * functional programming (forEach, map, filter, reduce)
 * classes
+* terminal/command prompt
