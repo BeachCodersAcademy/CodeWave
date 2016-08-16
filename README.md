@@ -39,7 +39,7 @@ A link to the videos can be found [here](https://drive.google.com/folderview?id=
 * What an expression is and how they are evaluated ((8 + “9”) -> (“89”) -> (true)).
 
 #### Day 9: Loops, Math & Date Objects
-**Notes:** while, for, for of, Math object
+**Notes:** while, for, Math object
 * How ‘while loops’ work.
 * How ‘for loops’ work.
 
