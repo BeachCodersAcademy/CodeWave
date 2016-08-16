@@ -54,7 +54,7 @@ A link to the videos can be found [here](https://drive.google.com/folderview?id=
 * Understand that arrays are pass-by-reference.
 
 #### Day 12: Functions
-**Notes:** pass by reference vs pass by value, parameters vs arguments, default parameters
+**Notes:** hoisting, pass by reference vs pass by value, parameters vs arguments, default parameters
 * How to declare a function, pass it arguments, and return values.
 * Understand higher order functions (function -> function).
 
