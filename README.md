@@ -54,15 +54,17 @@ A link to the videos can be found [here](https://drive.google.com/folderview?id=
 * Understand that arrays are pass-by-reference.
 
 #### Day 12: Functions
-**Notes:** hoisting, pass by reference vs pass by value, parameters vs arguments, default parameters
+**Notes:** hoisting, pass by reference vs pass by value, parameters vs arguments, default parameters, methods
 * How to declare a function, pass it arguments, and return values.
 * Understand higher order functions (function -> function).
 
 #### Day 13: querySelector
+**Notes:** [document object](https://developer.mozilla.org/en-US/docs/Web/API/Document), [element object](https://developer.mozilla.org/en-US/docs/Web/API/Element)
 * How to select HTML elements (DOM elements) using JavaScript.
 * How to modify those elements.
 
 #### Day 14: jQuery - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/jquery.md)
+**Notes:** [jQuery cheatsheet](https://oscarotero.com/jquery/)
 * How to select, modify, & create HTML elements using jQuery.
 * How to handle events (click, mouseover, etc.).
 
