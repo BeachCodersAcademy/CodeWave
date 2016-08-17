@@ -59,7 +59,7 @@ A link to the videos can be found [here](https://drive.google.com/folderview?id=
 * Understand higher order functions (function -> function).
 
 #### Day 13: querySelector
-**Notes:** [document object](https://developer.mozilla.org/en-US/docs/Web/API/Document), [element object](https://developer.mozilla.org/en-US/docs/Web/API/Element)
+**Notes:** [document object](https://developer.mozilla.org/en-US/docs/Web/API/Document), [element object](https://developer.mozilla.org/en-US/docs/Web/API/Element), [You Might Not Need jQuery](http://youmightnotneedjquery.com/)
 * How to select HTML elements (DOM elements) using JavaScript.
 * How to modify those elements.
 
