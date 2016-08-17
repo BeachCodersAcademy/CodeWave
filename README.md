@@ -58,7 +58,7 @@ A link to the videos can be found [here](https://drive.google.com/folderview?id=
 * How to declare a function, pass it arguments, and return values.
 * Understand higher order functions (function -> function).
 
-#### Day 13: querySelector
+#### Day 13: querySelector - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/query_selector.md)
 **Notes:** [document object](https://developer.mozilla.org/en-US/docs/Web/API/Document), [element object](https://developer.mozilla.org/en-US/docs/Web/API/Element), [You Might Not Need jQuery](http://youmightnotneedjquery.com/)
 * How to select HTML elements (DOM elements) using JavaScript.
 * How to modify those elements.
