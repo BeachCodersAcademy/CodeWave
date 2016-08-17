@@ -89,3 +89,8 @@ A link to the videos can be found [here](https://drive.google.com/folderview?id=
 * functional programming (forEach, map, filter, reduce)
 * classes
 * terminal/command prompt
+
+#### Resources
+* [HTML Interview Questions](http://www.thatjsdude.com/interview/html.html)
+* [CSS Interview Questions](http://www.thatjsdude.com/interview/css.html)
+* [JavaScript Interview Questions](http://www.thatjsdude.com/interview/js1.html)
