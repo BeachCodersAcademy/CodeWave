@@ -1,0 +1,13 @@
+body { 
+  background: url("../img/tv.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#input-area {
+  position: relative;
+  top: 20px;
+}
+
