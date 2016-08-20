@@ -6,7 +6,8 @@ Some simple APIs are:
 * weather: 
   * https://www.wunderground.com/weather/api/
   * http://openweathermap.org/api
-* music: https://developer.spotify.com/web-api/
+* music: 
+  * https://developer.spotify.com/web-api/
 * movies:
   * http://www.omdbapi.com/
   * https://www.themoviedb.org/documentation/api
