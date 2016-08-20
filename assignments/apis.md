@@ -11,7 +11,8 @@ Some simple APIs are:
 * movies:
   * http://www.omdbapi.com/
   * https://www.themoviedb.org/documentation/api
-* tv shows: http://www.tvmaze.com/api
+* tv shows:
+  * http://www.tvmaze.com/api
 
 Be sure to make an app that you would use or that you would want to show to a potential employer.
 
