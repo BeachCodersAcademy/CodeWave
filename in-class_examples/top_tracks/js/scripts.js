@@ -10,8 +10,8 @@ $(function() {
     let artist1Id = getArtistId(artist1);
     let artist2Id = getArtistId(artist2);
     
-    console.log(artist1Id); 
-    console.log(artist2Id); 
+    console.log(artist1Id);
+    console.log(artist2Id);
     
     let $artist1Tracks = $('#artist1-tracks');        
     // console.log($artist1Tracks);
