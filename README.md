@@ -74,7 +74,7 @@ A link to the videos can be found [here](https://drive.google.com/folderview?id=
 
 #### Day 16: Forms w/ JavaScript & Animate.css
 * How to get data from HTML forms.
-* How to use Animate.css
+* How to use Animate.css.
 
 #### Day 17: Bootstrap JS & Media Queries
 * How to use Bootstrap’s custom JavaScript methods (popover, carousel, etc.).
@@ -89,6 +89,9 @@ A link to the videos can be found [here](https://drive.google.com/folderview?id=
 * functional programming (forEach, map, filter, reduce)
 * classes
 * terminal/command prompt
+
+#### Templates
+* http://blacktie.co/demo/appi/
 
 #### Resources
 * [HTML Interview Questions](http://www.thatjsdude.com/interview/html.html)
