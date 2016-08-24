@@ -83,12 +83,13 @@ A link to the videos can be found [here](https://drive.google.com/folderview?id=
 #### Day 18: Paired Assignment - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/paired_assignment.md)
 
 #### Bonuses
+* terminal/command prompt
 * git
-* Analytics
+* classes
+* Firebase
+* Google Analytics
 * cookies
 * functional programming (forEach, map, filter, reduce)
-* classes
-* terminal/command prompt
 
 #### Templates
 * [Template #1](http://blacktie.co/demo/appi/)
