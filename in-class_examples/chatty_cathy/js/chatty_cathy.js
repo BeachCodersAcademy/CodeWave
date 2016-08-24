@@ -14,28 +14,43 @@ $(function() {
   
   $('#chat-btn').click(function() {
     
+    // get name
+    let $name = $('#name');    
+    let name = $name.val();
+    
+    // get chat
     let $chat = $('textarea');        
     let chat = $chat.val();        
     $chat.val('');
-    
+        
     // put cursor back in textarea
     $chat.focus();
     
     // add chat to Firebase
-    database.ref().push(chat);
+    database.ref('chats').push({
+      chat,
+      name,
+      timestamp: new Date().toString()
+    });
+        
+    // database.ref('users').push(name);
     
   });
   
   let $chats = $('#chats');
   
   // get data from database & put it on the screen
-  database.ref().on('child_added', function(snapshot) {
+  database.ref('chats').on('child_added', function(snapshot) {
     
     // console.log(snapshot);
     // console.log(snapshot.val());
     
-    $chats.prepend(`<p>${snapshot.val()}</p>`);
+    $chats.prepend(`
+      <p>
+      <strong>${snapshot.val().name}:</strong> ${snapshot.val().chat}
+      </p>
+      `);
     
-  });  
+  });
   
 });
