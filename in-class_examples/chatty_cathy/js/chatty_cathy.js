@@ -22,7 +22,7 @@ $(function() {
     let $chat = $('textarea');        
     let chat = $chat.val();        
     $chat.val('');
-        
+    
     // put cursor back in textarea
     $chat.focus();
     
@@ -32,7 +32,7 @@ $(function() {
       name,
       timestamp: new Date().toString()
     });
-        
+    
     // database.ref('users').push(name);
     
   });
@@ -50,7 +50,7 @@ $(function() {
       <strong>${snapshot.val().name}:</strong> ${snapshot.val().chat}
       </p>
       `);
+      
+    });
     
   });
-  
-});
