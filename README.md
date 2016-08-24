@@ -91,7 +91,8 @@ A link to the videos can be found [here](https://drive.google.com/folderview?id=
 * terminal/command prompt
 
 #### Templates
-* http://blacktie.co/demo/appi/
+* [Template #1](http://blacktie.co/demo/appi/)
+* [Full Slider](https://startbootstrap.com/template-overviews/full-slider/)
 
 #### Resources
 * [HTML Interview Questions](http://www.thatjsdude.com/interview/html.html)
