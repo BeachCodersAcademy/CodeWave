@@ -1,0 +1,11 @@
+textarea {
+  padding: 6px;
+  box-shadow: 6px 6px 12px lightblue;
+  width: 100%;
+  resize: none;
+}
+
+#chat-btn {
+  width: 100%;
+  margin-top: 10px;
+}
