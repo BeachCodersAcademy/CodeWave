@@ -26,6 +26,16 @@ $(function() {
     
   });
   
+  let $chats = $('#chats');
   
+  // get data from database & put it on the screen
+  database.ref().on('child_added', function(snapshot) {
+    
+    // console.log(snapshot);
+    // console.log(snapshot.val());
+    
+    $chats.prepend(`<p>${snapshot.val()}</p>`);
+    
+  });  
   
 });
