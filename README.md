@@ -86,7 +86,7 @@ A link to the videos can be found [here](https://drive.google.com/folderview?id=
 * terminal/command prompt
 * git
 * classes
-* Firebase
+* Firebase - [Firebase Quickstart](https://github.com/firebase/quickstart-js)
 * Google Analytics
 * cookies
 * functional programming (forEach, map, filter, reduce)
