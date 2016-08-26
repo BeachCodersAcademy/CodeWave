@@ -4,6 +4,8 @@
 
 A link to the videos can be found [here](https://drive.google.com/folderview?id=0B2uG81JQ0lFLWGZ4NUVjakRUSU0&usp=sharing).
 
+Link to [profile template](http://beachcoders.com/profile.html).
+
 #### Day 1: HTML - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/html.md)
 * How to correctly set up an HTML document.	
 * What a `<div>` tag is and what it is for.
