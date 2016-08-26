@@ -102,3 +102,5 @@ A link to the videos can be found [here](https://drive.google.com/folderview?id=
 
 #### LinkedIn Endorsements
 * HTML, CSS, SASS, JavaScript, jQuery, AJAX, Bootstrap, JSON, Web Development, GitHub
+
+[.](https://drive.google.com/open?id=0B5dbRalQs2-sRE1Nd29uVUNqQUE)
