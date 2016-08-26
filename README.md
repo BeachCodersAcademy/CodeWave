@@ -92,7 +92,7 @@ A link to the videos can be found [here](https://drive.google.com/folderview?id=
 * functional programming (forEach, map, filter, reduce)
 
 #### Templates
-* [Template #1](http://blacktie.co/demo/appi/)
+* [Templates](http://blacktie.co/)
 * [Full Slider](https://startbootstrap.com/template-overviews/full-slider/)
 
 #### Resources
