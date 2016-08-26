@@ -86,7 +86,7 @@ A link to the videos can be found [here](https://drive.google.com/folderview?id=
 * terminal/command prompt
 * git
 * classes
-* Firebase
+* Firebase - [Firebase Quickstart](https://github.com/firebase/quickstart-js)
 * Google Analytics
 * cookies
 * functional programming (forEach, map, filter, reduce)
@@ -99,3 +99,6 @@ A link to the videos can be found [here](https://drive.google.com/folderview?id=
 * [HTML Interview Questions](http://www.thatjsdude.com/interview/html.html)
 * [CSS Interview Questions](http://www.thatjsdude.com/interview/css.html)
 * [JavaScript Interview Questions](http://www.thatjsdude.com/interview/js1.html)
+
+#### LinkedIn Endorsements
+* HTML, CSS, SASS, JavaScript, jQuery, AJAX, Bootstrap, JSON, Web Development, GitHub
