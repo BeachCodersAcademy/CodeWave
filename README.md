@@ -6,6 +6,8 @@ A link to the videos can be found [here](https://drive.google.com/folderview?id=
 
 Link to [profile template](http://beachcoders.com/profile.html).
 
+[Recommended Atom Packages](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/atom_packages.md)
+
 #### Day 1: HTML - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/html.md)
 * How to correctly set up an HTML document.	
 * What a `<div>` tag is and what it is for.
