@@ -8,11 +8,11 @@ Link to [profile template](http://beachcoders.com/profile.html).
 
 [Recommended Atom Packages](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/atom_packages.md)
 
-#### Day 1: HTML - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/html.md)
+#### Day 1: HTML ([HTML Cheat Sheet](http://www.cheat-sheets.org/saved-copy/html5-cheat-sheet.png)) - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/html.md)
 * How to correctly set up an HTML document.	
 * What a `<div>` tag is and what it is for.
 
-#### Day 2: CSS - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/css.md)
+#### Day 2: CSS ([CSS Cheat Sheet](http://pro.ctlok.com/downloads/code/web-app-development-cheat-sheet/css/css3-cheat-sheet2.png)) - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/css.md)
 * The difference between an ‘id’ and a ‘class’.
 * How to target elements on a web page (selector -> property -> value).
 
