@@ -1,0 +1,37 @@
+/*
+3 things for css:
+1. selector
+2. property to change
+3. value to change that property to
+*/
+* {
+  font-family: fantasy;
+}
+
+.container {
+  background-color: aquamarine;
+  letter-spacing: 3px;
+}
+
+body {
+  background-image: url("http://weknowyourdreams.com/image.php?pic=/images/music/music-06.jpg");
+  /*background-repeat: no-repeat;*/
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  
+  /*background: url("img/music.jpg") no-repeat center center fixed; */
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*ul {
+}*/
+
+li {
+  list-style-type: none;
+  display: inline;
+}
