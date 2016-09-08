@@ -1,0 +1,18 @@
+@import 'https://fonts.googleapis.com/css?family=Pacifico';
+
+#navbar{
+  text-transform: uppercase;
+  font-weight: 100;
+  font-family: 'Pacifico', cursive;
+  padding: 5px;
+
+}
+#navbar li{
+    margin: 20px;
+    padding: 5px;
+    border-top: 2px double #8ae911;
+}
+
+#navbar a{
+  text-decoration: none !important;
+}

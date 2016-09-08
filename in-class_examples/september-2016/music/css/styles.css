@@ -1,12 +1,11 @@
+@import 'https://fonts.googleapis.com/css?family=Prompt:200,300,400,700';
+
 /*
 3 things for css:
 1. selector
 2. property to change
 3. value to change that property to
 */
-* {
-  font-family: fantasy;
-}
 
 .container {
   background-color: aquamarine;
@@ -14,7 +13,8 @@
 }
 
 body {
-  background-image: url("http://weknowyourdreams.com/image.php?pic=/images/music/music-06.jpg");
+  font-family: 'Prompt', sans-serif;
+  background-image: url("../img/music.jpg");
   /*background-repeat: no-repeat;*/
   background-repeat: no-repeat;
   background-position: center center;
@@ -27,9 +27,6 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
-
-/*ul {
-}*/
 
 li {
   list-style-type: none;
