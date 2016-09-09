@@ -4,6 +4,8 @@
 
 A link to the videos can be found [here](https://drive.google.com/folderview?id=0B2uG81JQ0lFLWGZ4NUVjakRUSU0&usp=sharing).
 
+A link to the September 2016 examples can be found [here](https://github.com/BeachCodersAcademy/CodeWave/tree/master/in-class_examples/september-2016).
+
 Link to [profile template](http://beachcoders.com/profile.html).
 
 [Recommended Atom Packages](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/atom_packages.md)
