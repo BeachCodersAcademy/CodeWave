@@ -1,4 +1,4 @@
-Arrays
+# Arrays
 
 Arrays are a data structure that allow you to hold multiple pieces of information within one location in memory, very much like an object. 
 More simply, an array (like an object) allows multiple pieces of data to exist inside one variable.
@@ -12,7 +12,7 @@ Unlike objects, arrays do not allow you to name individual properties. Instead, 
 
 2. Log the element at index 1 (Is this the first element?).
 3. Because arrays are ordered, they keep a record of how many elements are inside them. Log the length property of your array.
-4. Use a method to get the last element of the array and store this in the variable `lastPerson`
+4. Use a method to remove the last element of the array and store this in the variable `lastPerson`
 
 ** Methods are properties of objects that contain functions. If you're running a function from an object (e.g. myArray.pop()), it is also called a method.
 
