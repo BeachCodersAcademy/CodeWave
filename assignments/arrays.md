@@ -4,7 +4,7 @@ Arrays are a data structure that allow you to hold multiple pieces of informatio
 More simply, an array (like an object) allows multiple pieces of data to exist inside one variable.
 Unlike objects, arrays do not allow you to name individual properties. Instead, they have automatically assigned numerical "indexes", starting at 0 and going to the end of the array.
 
-1. Create an array `people` and fill it with objects (at least three) containing these properties:
+1. Create an array `people` and fill it with 3 objects, each object must contain these properties :
   
   * Name (of type String)
   * Age (of type Number)
