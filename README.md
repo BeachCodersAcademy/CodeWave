@@ -2,12 +2,6 @@
 
 ### "There is no progress without struggle." -Frederick Douglass (and Christoph)
 
-A link to the videos can be found [here](https://drive.google.com/folderview?id=0B2uG81JQ0lFLWGZ4NUVjakRUSU0&usp=sharing).
-
-A link to the September 2016 examples can be found [here](https://github.com/BeachCodersAcademy/CodeWave/tree/master/in-class_examples/september-2016).
-
-Link to [profile template](http://beachcoders.com/profile.html).
-
 Check out this [Web Development Mindmap](https://coggle.it/diagram/Vz9LvW8byvN0I38x) if you are struggling with which technologies to learn!
 
 [Recommended Atom Packages](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/atom_packages.md)
@@ -67,12 +61,12 @@ Check out this [Web Development Mindmap](https://coggle.it/diagram/Vz9LvW8byvN0I
 * Understand higher order functions (function -> function).
 
 #### Day 13: Element Selectors, Event Listeners - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/query_selector.md)
-**Notes:** [document object](https://developer.mozilla.org/en-US/docs/Web/API/Document), [element object](https://developer.mozilla.org/en-US/docs/Web/API/Element), [You Might Not Need jQuery](http://youmightnotneedjquery.com/)
+**Notes:** [document object](https://developer.mozilla.org/en-US/docs/Web/API/Document), [element object](https://developer.mozilla.org/en-US/docs/Web/API/Element)
 * How to select HTML elements (DOM elements) using JavaScript.
 * How to modify those elements.
 
 #### Day 14: jQuery - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/jquery.md)
-**Notes:** [jQuery cheatsheet](https://oscarotero.com/jquery/)
+**Notes:** [jQuery cheatsheet](https://oscarotero.com/jquery/), [You Might Not Need jQuery](http://youmightnotneedjquery.com/)
 * How to select, modify, & create HTML elements using jQuery.
 * How to handle events (click, mouseover, etc.).
 
