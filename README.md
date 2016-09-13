@@ -8,6 +8,8 @@ A link to the September 2016 examples can be found [here](https://github.com/Bea
 
 Link to [profile template](http://beachcoders.com/profile.html).
 
+Check out this [Web Development Mindmap](https://coggle.it/diagram/Vz9LvW8byvN0I38x) if you are struggling with which technologies to learn!
+
 [Recommended Atom Packages](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/atom_packages.md)
 
 #### Day 1: HTML ([HTML Cheat Sheet](http://www.cheat-sheets.org/saved-copy/html5-cheat-sheet.png)) - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/html.md)
