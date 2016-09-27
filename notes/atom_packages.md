@@ -19,4 +19,4 @@ If you want to hide *.DS_Store* & *.git* files:
 1. Go to Settings > Packages
 * Search for *tree-view*
 * Click on 'Settings' under the *tree-view* package
-* Make sure *Hide Ignored Names* is checked
+* Make sure *Hide Ignored Names* and *Hide VCS Ignored Files* are checked
