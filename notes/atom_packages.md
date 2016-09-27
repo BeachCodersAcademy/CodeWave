@@ -1,6 +1,6 @@
 # Recommended Atom Packages
 
-**How to install packages:** Go to settings > Install > {package_name}
+**How to install packages:** Go to Settings > Install > {package_name}
 
 *Make sure 'Packages' is selected & NOT 'Themes'*
 
@@ -14,3 +14,9 @@
 * **color-picker** - Press CMD+SHIFT+C (CTRL+SHIFT+C on Windows) to display a color picker
 * **pigments** - Displays the color of the hex/rgb values
 * **auto-update-packages** - Automatically update your packages
+
+If you want to hide *.DS_Store* & *.git* files:
+1. Go to Settings > Packages
+* Search for *tree-view*
+* Click on 'Settings* under the *tree-view* package
+* Make sure *Hide Ignored Names* is checked
