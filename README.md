@@ -10,7 +10,7 @@ Check out this [Web Development Mindmap](https://coggle.it/diagram/Vz9LvW8byvN0I
 * How to correctly set up an HTML document.	
 * What a `<div>` tag is and what it is for.
 
-#### Day 2: CSS ([CSS Cheat Sheet](http://pro.ctlok.com/downloads/code/web-app-development-cheat-sheet/css/css3-cheat-sheet2.png)) - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/css.md)
+#### Day 2: CSS ([CSS Cheat Sheet](https://www.smashingmagazine.com/wp-content/uploads/images/css3-cheat-sheet/css3-cheat-sheet.pdf)) - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/css.md)
 * The difference between an ‘id’ and a ‘class’.
 * How to target elements on a web page (selector -> property -> value).
 
