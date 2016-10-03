@@ -1,27 +1,15 @@
 # CSS
 
-Create a "fan" web page about something you are passionate about, be it a tv show, a hobby, or an exotic location
+Create a "fan" web page about something you are passionate about, be it a tv show, a hobby, or an exotic location.
+When starting out it's easiest to get the HTML done first and then style it all with CSS. Writing code isn't supposed to be fast. Take your time and plan out your approach.
 
-1. Give the whole page a background-color
-hint: think about what tag contains all the visual content of the page
-
-2. Make sure to change the color of the page's text
-there are multiple ways to apply color. try out hex codes, rgb values, and color names
-
-3. Include at least one image. be sure to appropriately resize it using the height andwidth property
-
-4. Make sure to include at least 15 separate HTML tags
-
-5. Make sure to nest some tags inside others where appropriate
-e.g. <p class='outer-paragraph><p class='inner-paragraph'></p></p>
-
-6. Include some informational links to other resources about this passion
-
-7. Include at least one local link to a made up "supplementary page" (this can be as simple as an .html file with some gibberish text on it)
-
-8. Make sure to include a couple of comments along the way
-
-9. Check out some of these fancier CSS properties:
-box-shadow
-border
-border-radius
+1. Give the page a background image.
+* Change the font on the page to a font from [Google Fonts](https://fonts.google.com/).
+* Change the color of some text.
+* Include at least one image. Be sure to appropriately resize it using the height and width property.
+* Center some things on the page. Check out some [centering tricks](https://www.w3.org/Style/Examples/007/center.en.html).
+* Include some informational links to other resources about this passion but make these links in the form of buttons or images.
+* Add some of these fancier CSS properties:
+  * box-shadow
+  * border
+  * border-radius
