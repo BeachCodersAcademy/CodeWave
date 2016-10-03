@@ -7,7 +7,7 @@ Check out this [Web Development Mindmap](https://coggle.it/diagram/Vz9LvW8byvN0I
 [Recommended Atom Packages](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/atom_packages.md)
 
 #### Day 1: HTML ([HTML Cheat Sheet](http://www.cheat-sheets.org/saved-copy/html5-cheat-sheet.png)) - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/html.md)
-**Notes:** boiler plate, syntax, lists, tags: hr, div, em, strong
+**Notes:** boiler plate, syntax, lists, tags: hr, div, em, strong, img, input
 * How to correctly set up an HTML document.	
 * What a `<div>` tag is and what it is for.
 
