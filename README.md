@@ -14,7 +14,7 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 * What a `<div>` tag is and what it is for.
 
 #### Day 2: CSS ([CSS Cheat Sheet](https://www.smashingmagazine.com/wp-content/uploads/images/css3-cheat-sheet/css3-cheat-sheet.pdf)) - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/css.md)
-**Notes:** id, class, centering, border, buttons, shadow, background, overflow, Google Fonts
+**Notes:** id, class, centering, border, buttons, shadow, background, overflow, gradient, Google Fonts
 * The difference between an ‘id’ and a ‘class’.
 * How to target elements on a web page (selector -> property -> value).
 
