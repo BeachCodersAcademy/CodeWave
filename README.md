@@ -18,7 +18,8 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 * The difference between an ‘id’ and a ‘class’.
 * How to target elements on a web page (selector -> property -> value).
 
-#### Day 3: Box Model & [Positioning](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/positioning.md)  - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/box_model_and_positioning.md)
+#### Day 3: Box Model, [Positioning](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/positioning.md), & SASS  - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/box_model_and_positioning.md)
+**Notes:** margin, padding, border, static, relative, absolute, fixed, [SASS Guide]()
 * Understand the difference between margin, padding, & border.
 * Understand the difference between static, relative, absolute, & fixed.
 
