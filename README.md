@@ -2,7 +2,9 @@
 
 ### "There is no progress without struggle." -Frederick Douglass (and Christoph)
 
-Check out this [Web Development Mindmap](https://coggle.it/diagram/Vz9LvW8byvN0I38x) of Web Development.
+Check out this [Web Development Mindmap](https://coggle.it/diagram/Vz9LvW8byvN0I38x) to connect the tools you hear about.
+
+Read [this](https://medium.com/@addyosmani/totally-get-your-frustration-ea11adf237e3#.ch2epio1i) if you're feeling discouraged about learning new technologies.
 
 In-class examples can be found [here](https://github.com/BeachCodersAcademy/CodeWave/tree/master/in-class_examples).
 
