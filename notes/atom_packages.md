@@ -15,7 +15,15 @@
 * **pigments** - Displays the color of the hex/rgb values
 * **auto-update-packages** - Automatically update your packages
 
+If you want to turn autosave on:
+
+1. Go to Settings > Packages
+* Search for *autosave*
+* Click on 'Settings' under the *autosave* package
+* Make sure *Enabled* is checked
+
 If you want to hide *.DS_Store* & *.git* files:
+
 1. Go to Settings > Packages
 * Search for *tree-view*
 * Click on 'Settings' under the *tree-view* package
