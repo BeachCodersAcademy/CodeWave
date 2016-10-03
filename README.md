@@ -19,7 +19,7 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 * How to target elements on a web page (selector -> property -> value).
 
 #### Day 3: Box Model, [Positioning](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/positioning.md), & SASS  - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/box_model_and_positioning.md)
-**Notes:** margin, padding, border, static, relative, absolute, fixed, [SASS Guide]()
+**Notes:** margin, padding, border, static, relative, absolute, fixed, [SASS Guide](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/sass.md)
 * Understand the difference between margin, padding, & border.
 * Understand the difference between static, relative, absolute, & fixed.
 
