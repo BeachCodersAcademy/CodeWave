@@ -28,6 +28,7 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 * Understand how transitions work (transition -> hover).
 
 #### Day 4: Bootstrap - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/bootstrap.md)
+**Notes:** container, grid, custom classes(text-center, img-responsive, & text-uppercase), btn, jumbotron, navbar, themes
 * How to correctly set up a grid layout (div.row > div.col-...).
 * How to target specific elements of Bootstrap components (hint: inspector).
 
