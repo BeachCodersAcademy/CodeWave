@@ -15,9 +15,14 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 * How to correctly set up an HTML document.	
 * What a `<div>` tag is and what it is for.
 
+<<<<<<< HEAD
 #### Day 2: Forms & CSS ([CSS Cheat Sheet](https://www.smashingmagazine.com/wp-content/uploads/images/css3-cheat-sheet/css3-cheat-sheet.pdf)) - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/css.md)
 **Notes:** selectors: (element, id, class, pseudo-classes), centering, properties: (border, shadow, background, overflow, gradient), Google Fonts
 * How to create a proper form.
+=======
+#### Day 2: CSS ([CSS Cheat Sheet](https://www.smashingmagazine.com/wp-content/uploads/images/css3-cheat-sheet/css3-cheat-sheet.pdf)) - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/css.md)
+**Notes:** id, class, centering, border, buttons, shadow, background, overflow, gradient, font-weight, Google Fonts
+>>>>>>> 520e22755d9fc46ccb35a4c4784d6eb5745412bc
 * The difference between an ‘id’ and a ‘class’.
 * How to target elements on a web page (selector -> property -> value).
 
