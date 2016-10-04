@@ -1,0 +1,76 @@
+@import 'https://fonts.googleapis.com/css?family=Dosis|Lobster|Open+Sans:700';
+
+html { 
+  background: url(../img/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#question {
+  font-family: 'Lobster', cursive;
+  font-size: 150%;
+  text-decoration: underline;  
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2.5px;
+  -webkit-text-stroke-color: black;
+}
+
+form {
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: 1px;
+}
+
+#logo {
+  height: 100px;
+}
+
+.container {
+  background-color: rgba(147, 147, 147, 0.8);  
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#lifelines {
+  text-align: left;
+  text-shadow: 1px 1px 0 #0ac90a;
+}
+
+#lifelines-container {
+  width: 20%;
+  margin: 0 auto;
+}
+
+button {
+  height: 30px;
+  border-radius: 5px;
+  color: white;
+  background-color: #0ac90a;
+  border: 2px solid rgba(45, 123, 45, 0.66);
+}
+
+input[type="radio"] {
+  background-color: rgba(45, 123, 45, 0.66);
+}
+
+textarea {
+  color: white;
+  font-size: 15px;
+  background: red; /* For browsers that do not support gradients */
+  /* For Safari 5.1 to 6.0 */
+  background: -webkit-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+  /* For Opera 11.1 to 12.0 */
+  background: -o-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+  /* For Fx 3.6 to 15 */
+  background: -moz-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+  /* Standard syntax */
+  background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
