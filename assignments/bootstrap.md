@@ -6,7 +6,7 @@ Make sure you have bootstrap imported in an html file (link to it). The correct 
   * jQuery
   * Bootstrap JS
 
-Come up with an interesting idea for a website (like to our Farmer's Market concept). It can be about anything as long as it interests you.
+Come up with an interesting idea for a website. It can be about anything as long as it interests you.
 
 Make your website with the following components:
   * a grid system
