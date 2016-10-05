@@ -3,8 +3,8 @@ Syntactically Awesome Style Sheets
 
 ### Setup:
 
-1. Make sure you have [Ruby Gems](https://rubygems.org/) installed. You can test this by typing `gem -v` into your command line. If a version number comes up you have have Ruby Gems installed.
-* Make sure you have SASS installed by entering `sudo gem install sass` into your command line. You can test this by typing `sass -v`. If a version number comes up you have SASS installed.
+1. Make sure you have [Ruby Gems](https://rubygems.org/) installed. You can check if you do by typing `gem -v` into your command line. If a version number comes up you have have Ruby Gems installed.
+* Make sure you have SASS installed by entering `sudo gem install sass` into your command line. You can check if you do by typing `sass -v`. If a version number comes up you have SASS installed.
 
 ### Up & Running:
 
