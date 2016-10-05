@@ -106,6 +106,11 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 * Sticky calls to action (CTA) (i.e. "Join us on Facebook!").
 * Single column CTA (i.e. A headline, sub-headline, and button with plenty of white space around them).
 
+#### Questions to Answer About Your Site:
+* What is your target audience (age, sex, location, income, education, occupation, etc.)?
+* Why do people visit your website (entertainment, necessity, work, information, etc.)?
+* Does your site make sense (i.e. are things in appropriate places, are pages linked correctly)?
+
 #### Resources:
 * [Free* icons](https://thenounproject.com/)
 * [Free high-res images](https://unsplash.com/)
