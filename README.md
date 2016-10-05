@@ -22,7 +22,7 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 * How to target elements on a web page (selector -> property -> value).
 
 #### Day 3: Box Model, [Positioning](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/positioning.md), Transitions, & SASS  - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/box_model_and_positioning.md)
-**Notes:** box model: (margin, padding, border), positioning: (static, relative, absolute, fixed), transitions, [SASS Guide](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/sass.md)
+**Notes:** box model: (margin, padding, border), positioning: (static, relative, absolute, fixed), transitions, [command line](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/command-line.md), [SASS Guide](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/sass.md)
 * Understand the difference between margin, padding, & border.
 * Understand the difference between static, relative, absolute, & fixed.
 * Understand how transitions work (transition -> hover).
