@@ -32,7 +32,8 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 * How to correctly set up a grid layout (div.container > div.row > div.col-...).
 * How to target specific elements of Bootstrap components (hint: inspector).
 
-#### Day 5: Bootstrap Review & GitHub
+#### Day 5: Bootstrap JavaScript, GitHub, & git
+**Notes:** git
 * Fully understand the grid layout and how to make rows within columns.
 * Understand the basics of GitHub (commit -> sync).
 
