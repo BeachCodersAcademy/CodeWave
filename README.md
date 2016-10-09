@@ -78,6 +78,7 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 * How to handle events (click, mouseover, etc.).
 
 #### Day 14: AJAX & APIs - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/apis.md)
+**Notes:** .ajax(), .getJSON()
 * How to make AJAX requests to APIs.
 * How to display specific data the gets returned from from the request.
 
@@ -85,8 +86,15 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 * How to get data from HTML forms.
 * How to use Animate.css.
 
+#### Day ??: React Basics
+**Notes:** npm, webkit, require, module.exports
+
 #### Day ??: React props
 **Notes:** this.props.prop-name, event handler as props - onClick, this.props.children, getDefaultProps
+
+#### Day ??: React state
+**Notes:** getInitialState, this.state.state-name, setState
+
 
 #### Bonuses
 * terminal/command prompt
