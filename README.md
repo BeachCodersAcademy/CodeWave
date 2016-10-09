@@ -85,11 +85,8 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 * How to get data from HTML forms.
 * How to use Animate.css.
 
-#### Day 16: Bootstrap JS & Media Queries
-* How to use Bootstrap’s custom JavaScript methods (popover, carousel, etc.).
-* How to use media queries.
-
-#### Day 17: Paired Assignment - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/paired_assignment.md)
+#### Day ??: React props
+**Notes:** this.props.prop-name, event handler as props - onClick, this.props.children, getDefaultProps
 
 #### Bonuses
 * terminal/command prompt
