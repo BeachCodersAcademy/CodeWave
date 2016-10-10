@@ -24,10 +24,8 @@
     <h1>Who Wants to be a Millionaire</h1>
 
     <p id="question">What does CSS stand for?</p>
-    
-    <form action="">
-      
-      <input id="name" type="text" name="name" placeholder="Name" autofocus required>
+          
+      <input id="name" type="text" name="name" placeholder="Name" autofocus>
       
       <br><br>
       
@@ -49,15 +47,16 @@
         </p> 
       </div>  
       
-      <button id="guess-btn">Guess</button>
+      <button id="guess-btn" onclick="tellThemTheyLost()">Guess</button>
+      
       <br><br>
       <textarea name="message" id="" cols="60" rows="10" placeholder="Leave us a message!"></textarea>
       <br>
       <button>Send Message</button>
-      
-    </form>
-    
+          
   </div>
+  
+  <script src="js/scripts.js" charset="utf-8"></script>
   
 </body>
 </html>
