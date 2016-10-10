@@ -133,7 +133,8 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 * [Mockingbird](https://gomockingbird.com/)
 
 #### Templates:
-* [Templates](http://blacktie.co/)
+* [startbootstrap.com](https://startbootstrap.com/)
+* [Examples](http://blacktie.co/)
 * [Full Slider](https://startbootstrap.com/template-overviews/full-slider/)
 
 #### Interviews:
