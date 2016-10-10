@@ -38,9 +38,11 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 * Understand the basics of GitHub (commit -> sync).
 
 #### Day 6: JavaScript
-**Notes:** comments, const, let, number, string, boolean, alert, prompt, confirm
-* How to create variables & reassign them.
-* The primitive data types & how they work (String, Number, Boolean).
+**Notes:** comments, const, let, primitive data types: (number, string, boolean), pop ups: (alert, prompt, confirm), connecting .js to .html
+* Law of Variables: Variables are just 'pointers' to their values.
+* Law of Strings: Quotation marks ALWAYS denote strings.
+* Law of Functions: The ENTIRE function call gets replace by the return value (if there is one).
+* Function calls are denoted by parenthesis.
 
 #### Day 7: Control Flow - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/control_flow.md)
 **Notes:** if, else if, else, truthy, falsie, logical operators, nesting, ternary operator
