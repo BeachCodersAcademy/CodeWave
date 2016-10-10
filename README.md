@@ -95,8 +95,8 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 #### Day ??: React state
 **Notes:** getInitialState, this.state.state-name, setState
 
-#### Day ??: Styles & Stateless Functional Components
-**Notes:** style object, props
+#### Day ??: Styles, Container vs Presentational Components, & Stateless Functional Components
+**Notes:** style object, prop types, forms
 
 
 #### Bonuses
