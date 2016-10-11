@@ -49,7 +49,7 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 * How to create an if-else statement.
 * What an expression is and how they are evaluated ((8 + “9”) -> (“89”) -> (true)).
 
-#### Day 8: Loops, Math & Date Objects
+#### Day 8: Loops, Math & Date Objects - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/loops.md)
 **Notes:** while, for, Math object
 * How ‘while loops’ work.
 * Use while loops when you don't know when it should end.
