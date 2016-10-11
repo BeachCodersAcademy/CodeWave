@@ -52,7 +52,9 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 #### Day 8: Loops, Math & Date Objects
 **Notes:** while, for, Math object
 * How ‘while loops’ work.
+* Use while loops when you don't know when it should end.
 * How ‘for loops’ work.
+* Use for loops when you know exactly when it should end.
 
 #### Day 9: Objects - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/objects.md)
 **Notes:** object creation, properties & values, dot notation, bracket notation, iteration (for in loop), add properties & values after object creation
