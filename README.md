@@ -57,7 +57,7 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 * Use for loops when you know exactly when it should end.
 
 #### Day 9: Functions
-**Notes:** hoisting, pass by reference vs pass by value, parameters vs arguments, default parameters
+**Notes:** hoisting, parameters vs arguments, default parameters
 * How to declare a function, pass it arguments, and return values.
 * Understand higher order functions (function -> function).
 
@@ -67,7 +67,7 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 * How to nest objects (i.e. have an object as a value of another object's property).
 
 #### Day 11: Arrays - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/arrays.md)
-**Notes:** list, array methods, iteration (for of loop)
+**Notes:** list, array methods, iteration (for of loop), pass by reference vs pass by value
 * How to declare, insert, & retrieve elements from an array.
 * Understand that arrays are pass-by-reference.
 
