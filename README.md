@@ -64,6 +64,7 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 #### Day 10: Objects - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/objects.md)
 **Notes:** object creation, properties & values, dot notation, bracket notation, iteration (for in loop), add properties & values after object creation, methods
 * Law of Objects: You CANNOT use variables with Dot Notation.
+* Methods are just functions that are tied to objects (i.e. Math.pow()).
 * How to create objects and assign properties & values to them.
 * How to nest objects (i.e. have an object as a value of another object's property).
 
