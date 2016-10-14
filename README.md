@@ -74,7 +74,7 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 * Understand that arrays are pass-by-reference.
 
 #### Day 12: Element Selectors, Event Listeners - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/query_selector.md)
-**Notes:** [document object](https://developer.mozilla.org/en-US/docs/Web/API/Document), [element object](https://developer.mozilla.org/en-US/docs/Web/API/Element)
+**Notes:** [Document Object](http://www.w3schools.com/jsref/dom_obj_all.asp), [Element Object](http://www.w3schools.com/jsref/dom_obj_all.asp), getElementById(), querySelector(), .textContent, .innerHTML, .style, [.cssText](http://www.w3schools.com/jsref/prop_style_csstext.asp), [setAttribute()](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute), [addEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener), [Events](http://www.w3schools.com/jsref/dom_obj_event.asp)
 * How to select HTML elements (DOM elements) using JavaScript.
 * How to modify those elements.
 
