@@ -50,29 +50,31 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 * What an expression is and how they are evaluated ((8 + “9”) -> (“89”) -> (true)).
 
 #### Day 8: Loops, Math & Date Objects - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/loops.md)
-**Notes:** while, for, Math object
+**Notes:** while, for, break, Math object
 * How ‘while loops’ work.
 * Use while loops when you don't know when it should end.
 * How ‘for loops’ work.
 * Use for loops when you know exactly when it should end.
 
-#### Day 9: Objects - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/objects.md)
-**Notes:** object creation, properties & values, dot notation, bracket notation, iteration (for in loop), add properties & values after object creation
-* How to create objects and assign properties & values to them.
-* How to nest objects (i.e. have an object as a value of another object's property).
-
-#### Day 10: Arrays - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/arrays.md)
-**Notes:** list, array methods, iteration (for of loop)
-* How to declare, insert, & retrieve elements from an array.
-* Understand that arrays are pass-by-reference.
-
-#### Day 11: Functions
-**Notes:** hoisting, pass by reference vs pass by value, parameters vs arguments, default parameters, methods
+#### Day 9: Functions
+**Notes:** hoisting, parameters vs arguments, default parameters
 * How to declare a function, pass it arguments, and return values.
 * Understand higher order functions (function -> function).
 
+#### Day 10: Objects - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/objects.md)
+**Notes:** object creation, properties & values, dot notation, bracket notation, iteration (for in loop), add properties & values after object creation, methods
+* Law of Objects: You CANNOT use variables with Dot Notation.
+* Methods are just functions that are tied to objects (i.e. Math.pow()).
+* How to create objects and assign properties & values to them.
+* How to nest objects (i.e. have an object as a value of another object's property).
+
+#### Day 11: Arrays - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/arrays.md)
+**Notes:** list, array methods, iteration (for of loop), pass by reference vs pass by value
+* How to declare, insert, & retrieve elements from an array.
+* Understand that arrays are pass-by-reference.
+
 #### Day 12: Element Selectors, Event Listeners - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/query_selector.md)
-**Notes:** [document object](https://developer.mozilla.org/en-US/docs/Web/API/Document), [element object](https://developer.mozilla.org/en-US/docs/Web/API/Element)
+**Notes:** [Document Object](http://www.w3schools.com/jsref/dom_obj_all.asp), [Element Object](http://www.w3schools.com/jsref/dom_obj_all.asp), getElementById(), querySelector(), .textContent, .innerHTML, .style, [.cssText](http://www.w3schools.com/jsref/prop_style_csstext.asp), [setAttribute()](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute), [addEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener), [Events](http://www.w3schools.com/jsref/dom_obj_event.asp)
 * How to select HTML elements (DOM elements) using JavaScript.
 * How to modify those elements.
 
@@ -130,6 +132,7 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 * [Free high-res textures & backgrounds](http://atextures.com/)
 
 #### Wireframe Tools:
+* [Draw.io[(https://www.draw.io)
 * [Moqups](https://app.moqups.com/)
 * [Cacoo](https://cacoo.com/)
 * [Mockingbird](https://gomockingbird.com/)
