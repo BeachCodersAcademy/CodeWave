@@ -61,36 +61,30 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 * How to declare a function, pass it arguments, and return values.
 * Understand higher order functions (function -> function).
 
-#### Day 10: Objects - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/objects.md)
-**Notes:** object creation, properties & values, dot notation, bracket notation, iteration (for in loop), add properties & values after object creation, methods
+#### Day 10: Objects & Arrays - [objects assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/objects.md) [arrays assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/arrays.md)
+**Object Notes:** object creation, properties & values, dot notation, bracket notation, iteration (for in loop), add properties & values after object creation, methods
 * Law of Objects: You CANNOT use variables with Dot Notation.
 * Methods are just functions that are tied to objects (i.e. Math.pow()).
 * How to create objects and assign properties & values to them.
 * How to nest objects (i.e. have an object as a value of another object's property).
-
-#### Day 11: Arrays - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/arrays.md)
-**Notes:** list, array methods, iteration (for of loop), pass by reference vs pass by value
+**Array Notes:** list, array methods, iteration (for of loop), pass by reference vs pass by value
 * How to declare, insert, & retrieve elements from an array.
 * Understand that arrays are pass-by-reference.
 
-#### Day 12: Element Selectors, Event Listeners - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/query_selector.md)
-**Notes:** [Document Object](http://www.w3schools.com/jsref/dom_obj_all.asp), [Element Object](http://www.w3schools.com/jsref/dom_obj_all.asp), getElementById(), querySelector(), .textContent, .innerHTML, .style, [.cssText](http://www.w3schools.com/jsref/prop_style_csstext.asp), [setAttribute()](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute), [addEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener), [Events](http://www.w3schools.com/jsref/dom_obj_event.asp)
+#### Day 11: Dom Manipulation, Event Listeners - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/query_selector.md)
+**Notes:** [Document Object](http://www.w3schools.com/jsref/dom_obj_all.asp), [Element Object](http://www.w3schools.com/jsref/dom_obj_all.asp), getElementById(), querySelector(), .textContent, .innerHTML, .style, [.cssText](http://www.w3schools.com/jsref/prop_style_csstext.asp), [setAttribute()](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute), [addEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener), [Events](http://www.w3schools.com/jsref/dom_obj_event.asp), forms
 * How to select HTML elements (DOM elements) using JavaScript.
 * How to modify those elements.
 
-#### Day 13: jQuery - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/jquery.md)
+#### Day 12: jQuery - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/jquery.md)
 **Notes:** [jQuery cheatsheet](https://oscarotero.com/jquery/), [You Might Not Need jQuery](http://youmightnotneedjquery.com/)
 * How to select, modify, & create HTML elements using jQuery.
 * How to handle events (click, mouseover, etc.).
 
-#### Day 14: AJAX & APIs - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/apis.md)
-**Notes:** .ajax(), .getJSON()
+#### Day 13: AJAX, APIs, & Animate.css - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/apis.md)
+**Notes:** .ajax(), .getJSON(), animate.css
 * How to make AJAX requests to APIs.
 * How to display specific data the gets returned from from the request.
-
-#### Day 15: Forms w/ JavaScript & Animate.css
-* How to get data from HTML forms.
-* How to use Animate.css.
 
 #### Day ??: React Basics
 **Notes:** npm, webkit, require, module.exports
