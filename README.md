@@ -82,8 +82,8 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 * How to make AJAX requests to APIs.
 * How to display specific data the gets returned from from the request.
 
-#### Day ??: [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set), [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map), & [Class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
-**Notes:** constructor
+#### Day 13: [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set), [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map), & [Class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+**Notes:** constructor, this
 
 #### Day ??: React [Setup](https://www.codecademy.com/articles/react-setup-i) & Basics
 **Notes:** npm, webkit, require, module.exports
