@@ -85,7 +85,7 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 #### Day ??: [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set), [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map), & [Class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 **Notes:** constructor
 
-#### Day ??: React Basics
+#### Day ??: React [Setup](https://www.codecademy.com/articles/react-setup-i) & Basics
 **Notes:** npm, webkit, require, module.exports
 
 #### Day ??: React props
