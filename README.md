@@ -68,7 +68,7 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 * Understand that arrays are pass-by-reference.
 
 #### Day 10: Dom Manipulation, Event Listeners - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/query_selector.md)
-**Notes:** [Document Object](http://www.w3schools.com/jsref/dom_obj_all.asp), [Element Object](http://www.w3schools.com/jsref/dom_obj_all.asp), getElementById(), querySelector(), .textContent, .innerHTML, .style, [.cssText](http://www.w3schools.com/jsref/prop_style_csstext.asp), [setAttribute()](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute), [addEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener), [Events](http://www.w3schools.com/jsref/dom_obj_event.asp), forms
+**Notes:** [Document Object](http://www.w3schools.com/jsref/dom_obj_document.asp), [Element Object](http://www.w3schools.com/jsref/dom_obj_all.asp), getElementById(), querySelector(), .textContent, .innerHTML, .style, [.cssText](http://www.w3schools.com/jsref/prop_style_csstext.asp), [setAttribute()](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute), [addEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener), [Events](http://www.w3schools.com/jsref/dom_obj_event.asp), forms
 * How to select HTML elements (DOM elements) using JavaScript.
 * How to modify those elements.
 
@@ -81,6 +81,9 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 **Notes:** .ajax(), .getJSON(), animate.css
 * How to make AJAX requests to APIs.
 * How to display specific data the gets returned from from the request.
+
+#### Day ??: [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set), [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map), & [Class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+**Notes:** constructor
 
 #### Day ??: React Basics
 **Notes:** npm, webkit, require, module.exports
