@@ -49,19 +49,15 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 * How to create an if-else statement.
 * What an expression is and how they are evaluated ((8 + “9”) -> (“89”) -> (true)).
 
-#### Day 8: Loops, Math & Date Objects - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/loops.md)
-**Notes:** while, for, break, Math object
-* How ‘while loops’ work.
-* Use while loops when you don't know when it should end.
-* How ‘for loops’ work.
-* Use for loops when you know exactly when it should end.
-
-#### Day 9: Functions
-**Notes:** hoisting, parameters vs arguments, default parameters
+#### Day 8: Loops, Math & Date Objects, & Functions - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/loops.md)
+**Notes:** while, for, break, Math, Date
+* Use while loops when you don't know exactly when the loop should end.
+* Use for loops when you know exactly how many times you should loop.
+**Function Notes:** hoisting, parameters vs arguments, default parameters
 * How to declare a function, pass it arguments, and return values.
 * Understand higher order functions (function -> function).
 
-#### Day 10: Objects & Arrays - [objects assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/objects.md) [arrays assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/arrays.md)
+#### Day 9: Objects & Arrays - [objects assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/objects.md) [arrays assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/arrays.md)
 **Object Notes:** object creation, properties & values, dot notation, bracket notation, iteration (for in loop), add properties & values after object creation, methods
 * Law of Objects: You CANNOT use variables with Dot Notation.
 * Methods are just functions that are tied to objects (i.e. Math.pow()).
@@ -71,17 +67,17 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 * How to declare, insert, & retrieve elements from an array.
 * Understand that arrays are pass-by-reference.
 
-#### Day 11: Dom Manipulation, Event Listeners - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/query_selector.md)
+#### Day 10: Dom Manipulation, Event Listeners - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/query_selector.md)
 **Notes:** [Document Object](http://www.w3schools.com/jsref/dom_obj_all.asp), [Element Object](http://www.w3schools.com/jsref/dom_obj_all.asp), getElementById(), querySelector(), .textContent, .innerHTML, .style, [.cssText](http://www.w3schools.com/jsref/prop_style_csstext.asp), [setAttribute()](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute), [addEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener), [Events](http://www.w3schools.com/jsref/dom_obj_event.asp), forms
 * How to select HTML elements (DOM elements) using JavaScript.
 * How to modify those elements.
 
-#### Day 12: jQuery - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/jquery.md)
+#### Day 11: jQuery - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/jquery.md)
 **Notes:** [jQuery cheatsheet](https://oscarotero.com/jquery/), [You Might Not Need jQuery](http://youmightnotneedjquery.com/)
 * How to select, modify, & create HTML elements using jQuery.
 * How to handle events (click, mouseover, etc.).
 
-#### Day 13: AJAX, APIs, & Animate.css - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/apis.md)
+#### Day 12: AJAX, APIs, & Animate.css - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/apis.md)
 **Notes:** .ajax(), .getJSON(), animate.css
 * How to make AJAX requests to APIs.
 * How to display specific data the gets returned from from the request.
