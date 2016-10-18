@@ -73,7 +73,7 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 * How to modify those elements.
 
 #### Day 11: jQuery - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/jquery.md)
-**Notes:** [jQuery cheatsheet](https://oscarotero.com/jquery/), [You Might Not Need jQuery](http://youmightnotneedjquery.com/)
+**Notes:** [jQuery cheatsheet](https://oscarotero.com/jquery/), [You Might Not Need jQuery](http://youmightnotneedjquery.com/), setTimeout(), setInterval()
 * How to select, modify, & create HTML elements using jQuery.
 * How to handle events (click, mouseover, etc.).
 
@@ -82,10 +82,10 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 * How to make AJAX requests to APIs.
 * How to display specific data the gets returned from from the request.
 
-#### Day ??: [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set), [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map), & [Class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
-**Notes:** constructor
+#### Day 13: [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set), [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map), & [Class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+**Notes:** constructor, this
 
-#### Day ??: React Basics
+#### Day ??: React [Setup](https://www.codecademy.com/articles/react-setup-i) & Basics
 **Notes:** npm, webkit, require, module.exports
 
 #### Day ??: React props
