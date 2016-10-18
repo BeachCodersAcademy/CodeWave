@@ -73,7 +73,7 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 * How to modify those elements.
 
 #### Day 11: jQuery - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/jquery.md)
-**Notes:** [jQuery cheatsheet](https://oscarotero.com/jquery/), [You Might Not Need jQuery](http://youmightnotneedjquery.com/)
+**Notes:** [jQuery cheatsheet](https://oscarotero.com/jquery/), [You Might Not Need jQuery](http://youmightnotneedjquery.com/), setTimeout(), setInterval()
 * How to select, modify, & create HTML elements using jQuery.
 * How to handle events (click, mouseover, etc.).
 
