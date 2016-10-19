@@ -7,7 +7,7 @@
   
   <link rel="icon" href="assets/img/icon.png">
   
-  <title>Document</title>
+  <title>Weather Now</title>
   
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="lib/css/bootstrap.min.css">
@@ -38,10 +38,15 @@
       
     </div> <!-- / row -->
     
-    <div class="row">
+    <div id="input-area" class="row">
       
       <div class="col-md-offset-4 col-md-4">
-        <input id="city" name="city" type="text" class="form-control">
+        <div class="input-group">
+          <span class="input-group-btn">
+            <button id="search-btn" class="btn btn-default" type="button">Go!</button>
+          </span>
+          <input id="city" name="city" type="text" class="form-control" placeholder="Search for..." autofocus="true">
+        </div><!-- /input-group -->
       </div>
       
     </div>
