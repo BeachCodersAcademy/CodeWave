@@ -1,22 +1,35 @@
 /*
- 1. check if js is linked
- 2. create logic
-    a. get input
-      - triggered on 
-        - button click:
-           a. target button
-           b. add event listener
-           c. add action(s)
-        -enter keypress:
-          a. target input element
-          b. add event listener
-          c. check if key pressed was 'enter' key
-          d. add action(s)
-      - get input:
-        a. target input box
-        b. get input (.val())
-    b. use their input to get weather data using AJAX
-    c. display data / error message
+Project Algorithm:
+1. Think about your project
+	- OpenWeatherMap API
+  - Display: current temp, high & low, city name, rain, description, weather icon
+2. Think about your needs - jQuery, Weather API
+3. Plan the layout - wireframes
+4. Create file structure - .html, .js, .css, libraries & frameworks
+5. Code the layout (in HTML), include containers!
+6. Plan the JavaScript - approach & functions
+7. Execute JS
+8. Make it pretty - fonts, colors, pictures, etc.
+
+JS Algorithm:
+1. check if js is linked
+2. create logic
+  a. get input
+    - triggered on 
+      - button click:
+         a. target button
+         b. add event listener
+         c. add action(s)
+      -enter keypress:
+        a. target input element
+        b. add event listener
+        c. check if key pressed was 'enter' key
+        d. add action(s)
+    - get input:
+      a. target input box
+      b. get input (.val())
+  b. use their input to get weather data using AJAX
+  c. display data / error message
 */
 
 $('#search-btn').on('click', () => {  
