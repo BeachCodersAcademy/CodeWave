@@ -2,7 +2,6 @@
 Event listeners in JSX are camel-cased instead of lower case or dashed.
 */
 
-let React = require('react');
 let ReactDOM = require('react-dom');
 
 let isCat = true;
