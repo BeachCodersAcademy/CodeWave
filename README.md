@@ -85,18 +85,10 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 #### Day 13: [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set), [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map), & [Class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 **Notes:** constructor, this
 
-#### Day ??: React [Setup](https://www.codecademy.com/articles/react-setup-i) & Basics
-**Notes:** npm, webkit, require, module.exports
-
-#### Day ??: React props
-**Notes:** this.props.prop-name, event handler as props - onClick, this.props.children, getDefaultProps
-
-#### Day ??: React state
-**Notes:** getInitialState, this.state.state-name, setState
-
-#### Day ??: Styles, Container vs Presentational Components, & Stateless Functional Components
-**Notes:** style object, prop types, forms
-
+#### Day 14+: [React Setup](https://www.codecademy.com/articles/react-setup-i), [React Examples](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/react) JSX, Lifecycle Methods, props, state, styling, forms, Container vs Presentational Components, & Stateless Functional Components
+**General Notes:** npm, webkit, require, module.exports
+**Prop Notes:** this.props.prop-name, event handler as props - onClick, this.props.children, getDefaultProps, prop types
+**State Notes:** getInitialState, this.state.stateName, setState
 
 #### Bonuses
 * terminal/command prompt
