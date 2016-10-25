@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chats</title>
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="lib/css/bootstrap.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+  
+</head>
+<body>
+  
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <input id="user-name" type="text" class="form-control" placeholder="Username" autofocus>
+        <textarea id="message" name="name" class="form-control" placeholder="Message"></textarea>
+        <div id="add-message-btn" class="btn btn-success form-control" onclick="addMessage()">Add Message</div>
+        <div id="messages">
+          <ul id="messages-list">            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div id="test"></div>
+  </div>
+  
+  <!-- Firebase JS -->
+  <script src="https://www.gstatic.com/firebasejs/3.5.1/firebase.js"></script>
+  
+  <!-- jQuery -->
+  <script src="lib/js/jquery-3.1.1.min.js" charset="utf-8"></script>
+  
+  <!-- Bootstrap JS -->
+  <script src="lib/js/bootstrap.min.js" charset="utf-8"></script>
+  
+  <!-- Custom JS -->
+  <script src="js/scripts.js" charset="utf-8"></script>
+  
+</body>
+</html>

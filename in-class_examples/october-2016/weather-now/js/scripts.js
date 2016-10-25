@@ -122,3 +122,9 @@ function displayInfoContainer(desc, rain) {
   $('#info-container').html(infoContainer);
   
 }
+
+class ClassName {
+  constructor(name, age) {
+    
+  }
+}
