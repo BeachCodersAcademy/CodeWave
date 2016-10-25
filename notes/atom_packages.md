@@ -13,6 +13,7 @@
 * **emmet** - Add a bunch of shortcuts (look up tutorials)
 * **color-picker** - Press CMD+SHIFT+C (CTRL+SHIFT+C on Windows) to display a color picker
 * **pigments** - Displays the color of the hex/rgb values
+* **browser-refresh-on-save** - Automatically refreshes your HTML files in the browser
 * **auto-update-packages** - Automatically update your packages
 
 If you want to turn autosave on:
