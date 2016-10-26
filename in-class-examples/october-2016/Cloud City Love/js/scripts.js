@@ -159,7 +159,6 @@ $('#find-love-btn').click(() => {
   /*
   CRUD Operations
 
-
   Create -> POST
   Read -> GET
   Update -> PUT
