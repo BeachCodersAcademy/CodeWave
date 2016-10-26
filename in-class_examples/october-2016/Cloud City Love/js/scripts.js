@@ -132,8 +132,16 @@ $('#find-love-btn').click(() => {
     function displayResult() {
       let query = $('#query').val();
       $('#query').val('');
+      // alert(query);
 
-    }
+      let url = 'https://swapi.co/api/people/?search=' + query;
+
+      $.getJSON(url, function(data) {
+
+        console.log(data);
+        // $('#matches-container').append(data);
+      });
+    };
 
 
     /*
