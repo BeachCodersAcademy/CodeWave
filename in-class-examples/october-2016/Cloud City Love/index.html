@@ -5,24 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Cloud City Love</title>
-  
+
   <!-- Bootswatch CSS -->
   <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-cyborg.min.css">
-  
+
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/styles.css">
-  
+
 </head>
 <body>
-  
+
   <div class="container">
-    
+
     <div class="row">
       <div class="col-md-12">
         <h1>Cloud City Love</h1>
       </div>
     </div>
-    
+
     <div class="row">
       <div class="col-md-5">
         <div class="row">
@@ -35,7 +35,7 @@
         </div>
         <div class="row">
           <div class="col-md-3">
-            Weight (in kg): 
+            Weight (in kg):
           </div>
           <div class="col-md-9">
             <input id="from-weight" type="number"> to <input id="to-weight" type="number">
@@ -43,7 +43,7 @@
         </div>
         <!-- <div class="row">
           <div class="col-md-3">
-            Age: 
+            Age:
           </div>
           <div class="col-md-9">
             <input id="from-age" type="number"> to <input id="to-age" type="number">
@@ -51,7 +51,7 @@
         </div> -->
         <div class="row">
           <div class="col-md-3">
-            Gender: 
+            Gender:
           </div>
           <div class="col-md-9">
             <select id="gender">
@@ -65,7 +65,7 @@
         </div>
         <div class="row">
           <div class="col-md-3">
-            Hair Color: 
+            Hair Color:
           </div>
           <div class="col-md-9">
             <input type="text" id="hair-color">
@@ -73,7 +73,7 @@
         </div>
         <div class="row">
           <div class="col-md-3">
-            Skin Color: 
+            Skin Color:
           </div>
           <div class="col-md-9">
             <input type="text" id="skin-color">
@@ -86,22 +86,22 @@
             </div>
           </div>
         </div>
-        
+
         <hr>
-        
+
         <p>Search By Name!</p>
-        
+
         <div class="input-group">
-          <input id="search-name" type="text" class="form-control" placeholder="Name">
+          <input id="query" type="text" class="form-control" placeholder="Name">
           <span class="input-group-btn">
             <button id="search-by-name-btn" class="btn btn-success" type="button">Search!</button>
           </span>
         </div><!-- /input-group -->
-        
+
         <hr>
-        
+
         <p>Random Match!</p>
-        
+
         <div id="random-male-btn" class="btn btn-info">
           Male
         </div>
@@ -111,25 +111,26 @@
         <div id="random-dontcare-btn" class="btn btn-info">
           Don't Care
         </div>
-        
+
       </div>
-      
+
       <div class="col-md-7">
+        <div id="waiting"></div> <!-- Div created to display the .gif when loading -->
         <div id="matches-container"></div>
       </div>
-      
+
     </div>
-    
+
   </div>
-  
+
   <!-- jQuery -->
-  <script src="lib/js/jquery-3.1.1.min.js" charset="utf-8"></script>
-  
+  <script src="lib/jquery/jquery-3.1.1.min.js" charset="utf-8"></script>
+
   <!-- Bootstrap JS -->
-  <script src="lib/js/bootstrap.min.js" charset="utf-8"></script>
-  
+  <script src="lib/bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
+
   <!-- Custom JS -->
   <script src="js/scripts.js" charset="utf-8"></script>
-  
+
 </body>
 </html>

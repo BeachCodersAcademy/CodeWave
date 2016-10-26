@@ -35,6 +35,10 @@ let $matchesContainer = $('#matches-container');
 
 $('#find-love-btn').click(() => {
   
+  // load the .gif image when the user clicks on button and append it to the #waiting div
+  let imgWait =`<img src="assets/img/bb8.gif" class="wait"><h5 class=text-center>Finding your love!</h5>`;
+  $('#waiting').append(imgWait);
+
   $matchesContainer.empty();
   
   let fromHeight = $fromHeight.val() ? Number($fromHeight.val()) : 0;
@@ -92,44 +96,96 @@ $('#find-love-btn').click(() => {
     
     setTimeout(() => {
       
+      //when we print the results we don't want the .gif image anymore, so we empty it
+      $('#waiting').empty(imgWait);
+      
       console.log(matches);
       
-      // put matches on screen
-      matches.forEach(person => {
-        
-        let name = person.name;
-        // TODO: get image url
-        // let imgURL = 
-        let gender = person.gender;
-        let height = person.height;
-        let weight = person.mass;
-        let hairColor = person.hair_color;
-        let skinColor = person.skin_color;
-        
+      // need to check if matches is empty to display something like "No match was found"
+      
+      if(matches.length === 0){
         $matchesContainer.append(`
-          <h2>${name}</h2>
-          <p><small>${gender}</small></p>
-          <img src="" alt="${name}" />
-          <p>Height: ${height} | Weight: ${weight}</p>
-          <p>Hair Color: ${hairColor} | Skin Color: ${skinColor}</p>
-        `);
+          <h3 class="no-match-title">Not even in a galaxy far far away there's a match for you!</h3>
+          <p class="no-match-text">Try changing some of your preferences</p>
+          `);
+        }else { //if not empty, we display the results
+          
+          // put matches on screen
+          matches.forEach(person => {
+            
+            let name = person.name;
+            // TODO: get image url
+            // let imgURL =
+            let gender = person.gender;
+            let height = person.height;
+            let weight = person.mass;
+            let hairColor = person.hair_color;
+            let skinColor = person.skin_color;
+            
+            let weightLb = kilogramsToPounds(weight);
+            let heightFeet = cmToFeet(height);
+            
+            $matchesContainer.append(`
+              <h2>${name}</h2>
+              <p><small>${gender}</small></p>
+              <img src="" alt="${name}" />
+              <p>Height: ${heightFeet} | Weight: ${weightLb} lb</p>
+              <p>Hair Color: ${hairColor} | Skin Color: ${skinColor}</p>
+              `);
+              
+            });
+          }
+          
+        }, 4000); //Change it to 4s cause it wasn't finding everyone sometimes
+        
+        
         
       });
       
-    }, 3000);
-    
-    
-    
-  });
-  
-  /*
-  CRUD Operations
-  
-  Create -> POST
-  Read -> GET
-  Update -> PUT
-  Delete -> REMOVE
-  
-  Strongly Typed Languages
-  Javascript -> Weakly Typed  
-  */
+      //convert kg to lb
+      function kilogramsToPounds(n) {
+        return (n/0.4536).toFixed(1);
+      }
+      
+      //convert cm to feet and inches
+      function cmToFeet(n) {
+        var realFeet = ((n*0.393700) / 12);
+        var feet = Math.floor(realFeet);
+        var inches = Math.round((realFeet - feet) * 12);
+        return feet + "&prime;" + inches + '&Prime;';
+      }
+      
+      // Search-Btn-Feature Start //
+      $('#search-by-name-btn').on('click', () => {
+        displayResult();
+      });
+      
+      $('#query').keypress(e => {
+        if (e.key === 'Enter') displayResult();
+      });
+      
+      function displayResult() {
+        let query = $('#query').val();
+        $('#query').val('');
+        // alert(query);
+        
+        let url = 'https://swapi.co/api/people/?search=' + query;
+        
+        $.getJSON(url, function(data) {
+          
+          console.log(data);
+          // $('#matches-container').append(data);
+        });
+      };
+      
+      /*
+      CRUD Operations
+      
+      Create -> POST
+      Read -> GET
+      Update -> PUT
+      Delete -> REMOVE
+      
+      Strongly Typed Languages
+      Javascript -> Weakly Typed  
+      */
