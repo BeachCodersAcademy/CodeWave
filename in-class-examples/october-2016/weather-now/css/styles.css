@@ -1,0 +1,15 @@
+.icon {
+  position: fixed;
+  height: 60px;
+  top: 0;
+  left: 10px;
+}
+
+#weather-icon {
+  height: 60px;
+}
+
+#input-area {
+  position: relative;
+  top: 100px;
+}

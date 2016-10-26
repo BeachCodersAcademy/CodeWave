@@ -1,0 +1,14 @@
+#target {
+  margin-top: 10px;
+  border: 2px groove pink;
+  border-radius: 3px;
+  padding: 5px;
+  text-align: center;
+}
+
+.pretty {
+  background-color: #ff9c9c;
+  color: white;
+  font-family: fantasy;
+  font-size: 120%;
+}

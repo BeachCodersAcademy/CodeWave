@@ -1,0 +1,31 @@
+@media only screen and (max-width: 415px) {
+  
+  #name {
+    height: 45px;
+  }
+  
+  #chats {
+    font-size: 120%;
+  }
+  
+}
+
+textarea {
+  padding: 6px;
+  box-shadow: 6px 6px 12px lightblue;
+  width: 100%;
+  resize: none;
+}
+
+#chat-btn {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#name {
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  box-shadow: 6px 6px 12px lightblue;
+}

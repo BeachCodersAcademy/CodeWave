@@ -1,0 +1,52 @@
+
+#main {
+  background-image: url("../img/coffee-home.jpeg");
+  position: relative;
+  width:100%;
+  background-size: cover;
+  height: 90vh;
+}
+.margin-zero{
+  margin: 0;
+}
+
+.jumbotron .text-white-shadow{
+  color: white;
+  text-shadow: 5px 5px 5px #000;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+  align-items: center;
+}
+.nav-custom{
+  background-color: rgba(41, 31, 6, 0.73)
+}
+
+
+
+.nav-custom .navbar-nav>li>a:hover{
+  background-color: rgb(172, 103, 46)
+}
+
+
+
+.text-white{
+  color:rgb(255, 255, 255)
+}
+
+
+.justify{
+  align-content: center;
+  text-align: justify;
+}
+
+.image-fit {
+    max-height: 100%;
+    max-width: 100%;
+}

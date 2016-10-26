@@ -1,0 +1,21 @@
+#navbar {
+  background-color: #ffdb1f;
+}
+
+#movie-search, #search-btn {
+  border: 1px solid black;
+}
+
+#movie-search {
+  color: black;
+  font-style: italic;
+}
+
+#search-btn {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  background-color: pink;
+}

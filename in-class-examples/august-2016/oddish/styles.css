@@ -1,0 +1,12 @@
+.cow {
+  background-image: url("cow.gif");
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+/* taken from inspector */
+/*original: .navbar-default .navbar-nav>li>a:hover */
+/*changed `a` to `.blue-hover` */
+.navbar-default .navbar-nav>li>.blue-hover:hover {
+  background-color: blue;
+}

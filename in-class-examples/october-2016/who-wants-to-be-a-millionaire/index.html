@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!-- Icon created by Icon Fair -->
+  <link rel="icon" href="img/logo.png">
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>WW2BAM</title>
+  
+  <!-- <link href="https://fonts.googleapis.com/css?family=Dosis|Lobster|Open+Sans:700" rel="stylesheet"> -->
+  
+  <link rel="stylesheet" href="css/styles.css">  
+  
+</head>
+<body>
+  
+  <div class="container">
+    
+    <img id="logo" src="img/logo.png" alt="logo">
+    
+    <h1>Who Wants to be a Millionaire</h1>
+
+    <p id="question">What does CSS stand for?</p>
+          
+      <input id="name" type="text" name="name" placeholder="Name" autofocus>
+      
+      <br><br>
+      
+      <input type="radio" name="option" value="Cascading Smile Sheets"> Cascading Smile Sheets
+      <input type="radio" name="option" value="Central Style Systems">Central Style Systems<br>
+      <input type="radio" name="option" value="Ceuper Super Supper">Ceuper Super Supper
+      <input type="radio" name="option" value="Cascading Style Sheets">Cascading Style Sheets<br>
+      
+      <p>Lifelines: </p>
+      
+      <div id="lifelines-container">
+        <p id="lifelines">
+          <input type="checkbox" value="Phone a Friend"> 
+          <span class="lifeline">Phone a Friend</span> <br>
+          <input type="checkbox" value="Ask the Audience"> 
+          <span class="lifeline">Ask the Audience</span> <br>
+          <input type="checkbox" value="50/50"> 
+          <span class="lifeline">50/50</span>
+        </p> 
+      </div>  
+      
+      <button id="guess-btn" onclick="tellThemTheyLost()">Guess</button>
+      
+      <br><br>
+      <textarea name="message" id="" cols="60" rows="10" placeholder="Leave us a message!"></textarea>
+      <br>
+      <button>Send Message</button>
+          
+  </div>
+  
+  <script src="js/scripts.js" charset="utf-8"></script>
+  
+</body>
+</html>

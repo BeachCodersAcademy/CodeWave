@@ -1,0 +1,13 @@
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: seashell;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 0;
+  font-size: 0;
+}

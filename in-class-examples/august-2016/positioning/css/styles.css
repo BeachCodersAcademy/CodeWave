@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  height: 1000px;
+  border: 2px solid blue;
+  width: 200px;
+}
+
+.text-big {
+  font-size: 150%;
+  font-weight: 100;
+  background-color: yellow;
+}
+
+body {
+  background-color: lightblue;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: darkblue;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+
+#about {
+  background-color: orange;
+  width: 80%;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 10%;
+  text-align: justify;
+  /*   margin-top: 50px; */
+}
