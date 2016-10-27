@@ -38,19 +38,16 @@ const MAX_RESULTS = 5;
 let matches;
 let currentIndex;
 
-$('#find-love-btn').click(() => {displayMatches()});
+let imgWait =`<img src="assets/img/bb8.gif" class="wait"><h5 class=text-center>Finding your love!</h5>`;
 
-function displayMatches() {
+$('#find-love-btn').click(() => {getMatches()});
+
+function getMatches() {
   
-  matches = [];
-  currentIndex = 0;
+  resetPage();
   
-  // load the .gif image when the user clicks on button and append it to the #waiting div
-  let imgWait =`<img src="assets/img/bb8.gif" class="wait"><h5 class=text-center>Finding your love!</h5>`;
   $('#waiting').append(imgWait);
-  
-  $matchesContainer.empty();
-  
+    
   let fromHeight = $fromHeight.val() ? Number($fromHeight.val()) : 0;
   let toHeight = $toHeight.val() ?  Number($toHeight.val()) : Number.POSITIVE_INFINITY;
   let fromWeight =  Number($fromWeight.val()) ? $fromWeight.val() : 0;
@@ -74,212 +71,114 @@ function displayMatches() {
         if (person.height >= fromHeight && person.height <= toHeight
           && person.mass >= fromWeight && person.mass <= toWeight) {
             
-            // check gender (male, female, or n/a)            
-            if (gender === 'any'
-            || gender === person.gender) {
-              
-              // check hair color
-              if (hairColor === 'any'
-              || person.hair_color.includes(hairColor)) {
-                
-                // check skin color
-                if (skinColor === 'any'
-                || person.skin_color.includes(skinColor)) {
-                  
-                  matches.push(person);
-                  
-                } // / skin color
-                
-              } // / hair color
-              
-            } // / gender
+          // check gender (male, female, or n/a)            
+          if (gender === 'any'
+          || gender === person.gender) {
             
-          } // / height & weight
+            // check hair color
+            if (hairColor === 'any'
+            || person.hair_color.includes(hairColor)) {
+              
+              // check skin color
+              if (skinColor === 'any'
+              || person.skin_color.includes(skinColor)) {
+                
+                matches.push(person);
+                
+              } // / skin color
+              
+            } // / hair color
+              
+          } // / gender
+            
+        } // / height & weight
           
-        }); // / forEach
+      }); // / forEach
         
-      }); // / getJSON
+    }); // / getJSON
       
-    }; // / for
+  }; // / for
     
-    setTimeout(() => {
+  setTimeout(() => {
+    
+    $('#waiting').empty();
+    
+    // console.log(matches);
+    
+    if(matches.length === 0){
+      responsiveVoice.speak('Not even in a galaxy far far away there\'s a match for you!');
+      $matchesContainer.append(`
+        <h3 class="no-match-title">Not even in a galaxy far far away there's a match for you!</h3>
+        <p class="no-match-text">Try changing some of your preferences</p>
+      `);
+    }else { //if not empty, we display the results
+      responsiveVoice.speak(`We found ${matches.length} matches for you!`);
       
-      //when we print the results we don't want the .gif image anymore, so we empty it
-      $('#waiting').empty(imgWait);
-      
-      // console.log(matches);
-      
-      // need to check if matches is empty to display something like "No match was found"
-      
-      if(matches.length === 0){
-        responsiveVoice.speak('Not even in a galaxy far far away there\'s a match for you!');
-        $matchesContainer.append(`
-          <h3 class="no-match-title">Not even in a galaxy far far away there's a match for you!</h3>
-          <p class="no-match-text">Try changing some of your preferences</p>
-          `);
-        }else { //if not empty, we display the results
-          responsiveVoice.speak(`We found ${matches.length} matches for you!`);
-          
-          // put matches on screen
-          for (let i = 0; i < MAX_RESULTS; i++) {
-            
-            let person = matches[i];
-            
-            let name = person.name;
-            // TODO: get image url
-            // let imgURL =
-            let gender = person.gender;
-            let height = person.height;
-            let weight = person.mass;
-            let hairColor = person.hair_color;
-            let skinColor = person.skin_color;
-            
-            let weightLb = kilogramsToPounds(weight);
-            let heightFeet = cmToFeet(height);
-            
-            $matchesContainer.append(`
-              <h2>${i + 1}: ${name}</h2>
-              <p><small>${gender}</small></p>
-              <img src="" alt="${name}" />
-              <p>Height: ${heightFeet} | Weight: ${weightLb} lb</p>
-              <p>Hair Color: ${hairColor} | Skin Color: ${skinColor}</p>
-              `);
-              
-            }
-                        
-            // TODO: show pagination
-            $('#next-btn').removeClass('invisible');
-            
-          }
-          
-        }, 4000); //Change it to 4s cause it wasn't finding everyone sometimes
-        
-        
-        
-      }
+      displayMatches();
 
-//convert kg to lb
-function kilogramsToPounds(n) {
-  return (n/0.4536).toFixed(1);
-}
-
-//convert cm to feet and inches
-function cmToFeet(n) {
-  var realFeet = ((n*0.393700) / 12);
-  var feet = Math.floor(realFeet);
-  var inches = Math.round((realFeet - feet) * 12);
-  return feet + "&prime;" + inches + '&Prime;';
+      $('#next-btn').removeClass('invisible');
+          
+    }
+        
+  }, 4000); //Change it to 4s cause it wasn't finding everyone sometimes
+  
 }
 
 // Search-Btn-Feature Start //
 $('#search-by-name-btn').on('click', () => {
-  displayResult();
+  singleSearch();
 });
 
 $('#query').keypress(e => {
-  if (e.key === 'Enter') displayResult();
+  if (e.key === 'Enter') singleSearch();
 });
 
-let people;
-
-function displayResult() {
+function singleSearch() {
   
-  $matchesContainer.empty();
+  resetPage();
+  
+  $('#waiting').append(imgWait);
   
   let query = $('#query').val();
   $('#query').val('');
-  // alert(query);
   
   let url = 'https://swapi.co/api/people/?search=' + query;
   
   $.getJSON(url, function(data) {
     
-    // get the array of people
-    people = data.results;
+    console.log(data);
     
-    // for each person in the array put them on the screen
-    // people.forEach(person => {
+    // get the array of people
+    matches = data.results;
+    
+    $('#waiting').empty();
+    
+    displayMatches();
       
-    for (let i = 0; i < MAX_RESULTS; i++) {
-      
-      let person = people[i];
-      
-      let name = person.name;
-      // TODO: get image url
-      // let imgURL =
-      let gender = person.gender;
-      let height = person.height;
-      let weight = person.mass;
-      let hairColor = person.hair_color;
-      let skinColor = person.skin_color;
-      
-      let weightLb = kilogramsToPounds(weight);
-      let heightFeet = cmToFeet(height);
-      
-      $matchesContainer.append(`
-        <h2>${i + 1}: ${name}</h2>
-        <p><small>${gender}</small></p>
-        <img src="" alt="${name}" />
-        <p>Height: ${heightFeet} | Weight: ${weightLb} lb</p>
-        <p>Hair Color: ${hairColor} | Skin Color: ${skinColor}</p>
-        `);
-        
-      }
-      
-      currentIndex += MAX_RESULTS;
+    currentIndex += MAX_RESULTS;
     
   });
 };
-/*
-const MAX_RESULTS = 5
-let matches = []
-let currentIndex = 0
-*/
+
 $('#prev-btn').click(() => {
   
   if (currentIndex - MAX_RESULTS >= 0) {
     
     currentIndex -= MAX_RESULTS;
     
-    // TODO: don't display if there is no previous/next
-
     $matchesContainer.empty('');
-    // put matches on screen
-    for (let i = currentIndex; i < (currentIndex + MAX_RESULTS); i++) {
-      
-      let person = matches[i];
-      
-      let name = person.name;
-      // TODO: get image url
-      // let imgURL =
-      let gender = person.gender;
-      let height = person.height;
-      let weight = person.mass;
-      let hairColor = person.hair_color;
-      let skinColor = person.skin_color;
-      
-      let weightLb = kilogramsToPounds(weight);
-      let heightFeet = cmToFeet(height);
-      
-      $matchesContainer.append(`
-        <h2>${i + 1}: ${name}</h2>
-        <p><small>${gender}</small></p>
-        <img src="" alt="${name}" />
-        <p>Height: ${heightFeet} | Weight: ${weightLb} lb</p>
-        <p>Hair Color: ${hairColor} | Skin Color: ${skinColor}</p>
-        `);
-        
-      }
-      
-      $('#next-btn').removeClass('invisible');
     
-    } else if (currentIndex === matches.length -1) {
+    displayMatches();
+      
+    $('#next-btn').removeClass('invisible');
+    
+  } else if (currentIndex === matches.length -1) {
 
-      currentIndex -= currentIndex % MAX_RESULTS;
+    currentIndex -= currentIndex % MAX_RESULTS;
     
-    } else {
-      $('#prev-btn').addClass('invisible');
-    }
+  } else {
+    $('#prev-btn').addClass('invisible');
+  }
     
 });
 
@@ -288,102 +187,74 @@ $('#next-btn').click(() => {
   currentIndex += MAX_RESULTS;
 
   if (currentIndex + MAX_RESULTS <= matches.length) {
+    
     $matchesContainer.empty('');
-    // put matches on screen
-    for (let i = currentIndex; i < (currentIndex + MAX_RESULTS); i++) {
+    displayMatches();    
+
+    currentIndex += MAX_RESULTS;
       
-      let person = matches[i];
-      
-      let name = person.name;
-      // TODO: get image url
-      // let imgURL =
-      let gender = person.gender;
-      let height = person.height;
-      let weight = person.mass;
-      let hairColor = person.hair_color;
-      let skinColor = person.skin_color;
-      
-      let weightLb = kilogramsToPounds(weight);
-      let heightFeet = cmToFeet(height);
-      
-      $matchesContainer.append(`
-        <h2>${i + 1}: ${name}</h2>
-        <p><small>${gender}</small></p>
-        <img src="" alt="${name}" />
-        <p>Height: ${heightFeet} | Weight: ${weightLb} lb</p>
-        <p>Hair Color: ${hairColor} | Skin Color: ${skinColor}</p>
-        `);
-        
-      }
-      
-      currentIndex += MAX_RESULTS;
-      
-      $('#prev-btn').removeClass('invisible');
+    $('#prev-btn').removeClass('invisible');
     
-    } else if (currentIndex + MAX_RESULTS > matches.length 
-      && currentIndex + MAX_RESULTS < matches.length + MAX_RESULTS) {
-      // display if matches.length is not divisible by MAX_RESULTS
-      /*
-      currentIndex: 50
-      MAX_RESULTS: 5
-      matches.length: 51
-      matches.length + MAX_RESULTS: 56
-      */
-      
-        $matchesContainer.empty('');
-        // put matches on screen
-        for (let i = currentIndex; i < matches.length; i++) {
-          
-          let person = matches[i];
-          
-          let name = person.name;
-          // TODO: get image url
-          // let imgURL =
-          let gender = person.gender;
-          let height = person.height;
-          let weight = person.mass;
-          let hairColor = person.hair_color;
-          let skinColor = person.skin_color;
-          
-          let weightLb = kilogramsToPounds(weight);
-          let heightFeet = cmToFeet(height);
-          
-          $matchesContainer.append(`
-            <h2>${i + 1}: ${name}</h2>
-            <p><small>${gender}</small></p>
-            <img src="" alt="${name}" />
-            <p>Height: ${heightFeet} | Weight: ${weightLb} lb</p>
-            <p>Hair Color: ${hairColor} | Skin Color: ${skinColor}</p>
-            `);
-            
-          }
-          
-          currentIndex = matches.length-1;
-                    
-          $('#next-btn').addClass('invisible');
+  } else if (currentIndex + MAX_RESULTS > matches.length 
+    && currentIndex + MAX_RESULTS < matches.length + MAX_RESULTS) {
     
-}
+    // display if matches.length is not divisible by MAX_RESULTS
+    /*
+    currentIndex: 50
+    MAX_RESULTS: 5
+    matches.length: 51
+    matches.length + MAX_RESULTS: 56
+    */
+    
+    $matchesContainer.empty('');
+
+    displayMatches();
+      
+    currentIndex = matches.length-1;
+              
+    $('#next-btn').addClass('invisible');
+    
+  }
 
 });
 
-/*
-CRUD Operations
+function displayMatches() {
+  
+  for (let i = currentIndex; i < MAX_RESULTS; i++) {
+    
+    let person = matches[i];
+    
+    let name = person.name;
+    // TODO: get image url
+    // let imgURL =
+    let gender = person.gender;
+    let height = person.height;
+    let weight = person.mass;
+    let hairColor = person.hair_color;
+    let skinColor = person.skin_color;
+    
+    let weightLb = kilogramsToPounds(weight);
+    let heightFeet = cmToFeet(height);
+    
+    $matchesContainer.append(`
+      <h2>${i + 1}: ${name}</h2>
+      <p><small>${gender}</small></p>
+      <img src="" alt="${name}" />
+      <p>Height: ${heightFeet} | Weight: ${weightLb} lb</p>
+      <p>Hair Color: ${hairColor} | Skin Color: ${skinColor}</p>
+    `);
+      
+  }
+  
+}
 
-Create -> POST
-Read -> GET
-Update -> PUT
-Delete -> REMOVE
-
-Strongly Typed Languages
-Javascript -> Weakly Typed  
-*/
-
+// Speech to text
 if (annyang) {
   // Let's define our first command. First the text we expect, and then the function it should call
   var commands = {
     '(look) (search) (find) (for) love': function() {
       responsiveVoice.speak(`Looking for love!`);
-      displayMatches();
+      getMatches();
     },
     'search for :name': function(name) {
       responsiveVoice.speak(`Searching for ${name}`);
@@ -401,4 +272,21 @@ if (annyang) {
   
   // Start listening. You can call this here, or attach this call to an event, button, etc.
   annyang.start();
+}
+
+function resetPage() {
+  matches = [];
+  currentIndex = 0;
+  $matchesContainer.empty();
+}
+
+function kilogramsToPounds(n) {
+  return (n/0.4536).toFixed(1);
+}
+
+function cmToFeet(n) {
+  var realFeet = ((n*0.393700) / 12);
+  var feet = Math.floor(realFeet);
+  var inches = Math.round((realFeet - feet) * 12);
+  return feet + "&prime;" + inches + '&Prime;';
 }
