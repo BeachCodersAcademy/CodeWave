@@ -34,6 +34,9 @@ let $skinColor = $('#skin-color');
 let $matchesContainer = $('#matches-container');
 let $paginationContainer = $('#pagination-container');
 
+let $prevBtn = $('#prev-btn');
+let $nextBtn = $('#next-btn');
+
 const MAX_RESULTS = 5;
 let matches;
 let currentIndex;
@@ -48,6 +51,151 @@ function getMatches() {
   
   $('#waiting').append(imgWait);
     
+  populateMatches();
+    
+  setTimeout(() => {
+    
+    $('#waiting').empty();
+        
+    if(matches.length === 0){
+      
+      responsiveVoice.speak('Not even in a galaxy far far away there\'s a match for you!');
+      $matchesContainer.append(`
+        <h3 class="no-match-title">Not even in a galaxy far far away there's a match for you!</h3>
+        <p class="no-match-text">Try changing some of your preferences</p>
+      `);
+      
+    } else {
+      
+      responsiveVoice.speak(`We found ${matches.length} matches for you!`);
+      
+      displayMatches();
+          
+    }
+        
+  }, 4000);
+  
+}
+
+$('#search-by-name-btn').on('click', () => {
+  singleSearch();
+});
+
+$('#query').keypress(e => {
+  if (e.key === 'Enter') singleSearch();
+});
+
+function singleSearch() {
+  
+  resetPage();
+  
+  $('#waiting').append(imgWait);
+  
+  let query = $('#query').val();
+  $('#query').val('');
+  
+  let url = 'https://swapi.co/api/people/?search=' + query;
+  
+  $.getJSON(url, function(data) {
+        
+    matches = data.results;
+    
+    $('#waiting').empty();
+    
+    displayMatches();
+      
+    currentIndex += MAX_RESULTS;
+    
+  });
+};
+
+$nextBtn.click(() => {
+  
+  // check if user goes too far to the right
+  if (matches.length % MAX_RESULTS !== 0 &&
+  currentIndex + MAX_RESULTS > matches.length - MAX_RESULTS) {
+      currentIndex += matches.length % MAX_RESULTS;
+      
+  } else {
+    currentIndex += MAX_RESULTS;
+  }
+  
+  displayMatches();
+  
+});
+
+$prevBtn.click(() => {
+
+  currentIndex -= MAX_RESULTS;
+  
+  displayMatches();
+    
+});
+
+function displayMatches() {
+  
+  $matchesContainer.empty();
+  
+  let max = (currentIndex + MAX_RESULTS) > matches.length ? (currentIndex + MAX_RESULTS) : matches.length % 5;
+  
+  for (let i = currentIndex; i < (currentIndex + MAX_RESULTS); i++) {
+    
+    let person = matches[i];
+    
+    let name = person.name;
+    // TODO: get image url
+    // let imgURL =
+    let gender = person.gender;
+    let height = person.height;
+    let weight = person.mass;
+    let hairColor = person.hair_color;
+    let skinColor = person.skin_color;
+    
+    let weightLb = kilogramsToPounds(weight);
+    let heightFeet = cmToFeet(height);
+    
+    $matchesContainer.append(`
+      <h2>${i + 1}: ${name}</h2>
+      <p><small>${gender}</small></p>
+      <img src="" alt="${name}" />
+      <p>Height: ${heightFeet} | Weight: ${weightLb} lb</p>
+      <p>Hair Color: ${hairColor} | Skin Color: ${skinColor}</p>
+    `);
+      
+  }
+  
+  displayPaginationButtons();  
+  
+}
+
+function displayPaginationButtons() {
+  console.log('displayPaginationButtons');
+  console.log('currentIndex: ', currentIndex);
+  console.log('matches.length: ', matches.length);
+  console.log('MAX_RESULTS: ', MAX_RESULTS);
+  console.log('matches.length - MAX_RESULTS: ' + (matches.length - MAX_RESULTS));
+  
+  // $nextBtn
+  if (matches.length > MAX_RESULTS) {
+    $nextBtn.removeClass('invisible');
+  }
+  // makes nextBtn invisible if user goes too far to the right
+  if (currentIndex >= (matches.length - MAX_RESULTS)) {
+    $nextBtn.addClass('invisible');
+  }
+  
+  // $prevBtn
+  if (currentIndex <= MAX_RESULTS) {
+    $prevBtn.removeClass('invisible');
+  }
+  if (currentIndex === 0) {
+    $prevBtn.addClass('invisible');
+  }
+  
+  
+}
+
+function populateMatches() {
   let fromHeight = $fromHeight.val() ? Number($fromHeight.val()) : 0;
   let toHeight = $toHeight.val() ?  Number($toHeight.val()) : Number.POSITIVE_INFINITY;
   let fromWeight =  Number($fromWeight.val()) ? $fromWeight.val() : 0;
@@ -98,154 +246,6 @@ function getMatches() {
     }); // / getJSON
       
   }; // / for
-    
-  setTimeout(() => {
-    
-    $('#waiting').empty();
-    
-    // console.log(matches);
-    
-    if(matches.length === 0){
-      responsiveVoice.speak('Not even in a galaxy far far away there\'s a match for you!');
-      $matchesContainer.append(`
-        <h3 class="no-match-title">Not even in a galaxy far far away there's a match for you!</h3>
-        <p class="no-match-text">Try changing some of your preferences</p>
-      `);
-    }else { //if not empty, we display the results
-      responsiveVoice.speak(`We found ${matches.length} matches for you!`);
-      
-      displayMatches();
-
-      $('#next-btn').removeClass('invisible');
-          
-    }
-        
-  }, 4000); //Change it to 4s cause it wasn't finding everyone sometimes
-  
-}
-
-// Search-Btn-Feature Start //
-$('#search-by-name-btn').on('click', () => {
-  singleSearch();
-});
-
-$('#query').keypress(e => {
-  if (e.key === 'Enter') singleSearch();
-});
-
-function singleSearch() {
-  
-  resetPage();
-  
-  $('#waiting').append(imgWait);
-  
-  let query = $('#query').val();
-  $('#query').val('');
-  
-  let url = 'https://swapi.co/api/people/?search=' + query;
-  
-  $.getJSON(url, function(data) {
-    
-    console.log(data);
-    
-    // get the array of people
-    matches = data.results;
-    
-    $('#waiting').empty();
-    
-    displayMatches();
-      
-    currentIndex += MAX_RESULTS;
-    
-  });
-};
-
-$('#prev-btn').click(() => {
-  
-  if (currentIndex - MAX_RESULTS >= 0) {
-    
-    currentIndex -= MAX_RESULTS;
-    
-    $matchesContainer.empty('');
-    
-    displayMatches();
-      
-    $('#next-btn').removeClass('invisible');
-    
-  } else if (currentIndex === matches.length -1) {
-
-    currentIndex -= currentIndex % MAX_RESULTS;
-    
-  } else {
-    $('#prev-btn').addClass('invisible');
-  }
-    
-});
-
-$('#next-btn').click(() => {
-  
-  currentIndex += MAX_RESULTS;
-
-  if (currentIndex + MAX_RESULTS <= matches.length) {
-    
-    $matchesContainer.empty('');
-    displayMatches();    
-
-    currentIndex += MAX_RESULTS;
-      
-    $('#prev-btn').removeClass('invisible');
-    
-  } else if (currentIndex + MAX_RESULTS > matches.length 
-    && currentIndex + MAX_RESULTS < matches.length + MAX_RESULTS) {
-    
-    // display if matches.length is not divisible by MAX_RESULTS
-    /*
-    currentIndex: 50
-    MAX_RESULTS: 5
-    matches.length: 51
-    matches.length + MAX_RESULTS: 56
-    */
-    
-    $matchesContainer.empty('');
-
-    displayMatches();
-      
-    currentIndex = matches.length-1;
-              
-    $('#next-btn').addClass('invisible');
-    
-  }
-
-});
-
-function displayMatches() {
-  
-  for (let i = currentIndex; i < MAX_RESULTS; i++) {
-    
-    let person = matches[i];
-    
-    let name = person.name;
-    // TODO: get image url
-    // let imgURL =
-    let gender = person.gender;
-    let height = person.height;
-    let weight = person.mass;
-    let hairColor = person.hair_color;
-    let skinColor = person.skin_color;
-    
-    let weightLb = kilogramsToPounds(weight);
-    let heightFeet = cmToFeet(height);
-    
-    $matchesContainer.append(`
-      <h2>${i + 1}: ${name}</h2>
-      <p><small>${gender}</small></p>
-      <img src="" alt="${name}" />
-      <p>Height: ${heightFeet} | Weight: ${weightLb} lb</p>
-      <p>Hair Color: ${hairColor} | Skin Color: ${skinColor}</p>
-    `);
-      
-  }
-  
 }
 
 // Speech to text
@@ -278,6 +278,8 @@ function resetPage() {
   matches = [];
   currentIndex = 0;
   $matchesContainer.empty();
+  $prevBtn.addClass('invisible');
+  $nextBtn.addClass('invisible');
 }
 
 function kilogramsToPounds(n) {
