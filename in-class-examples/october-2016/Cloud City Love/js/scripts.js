@@ -1,26 +1,3 @@
-/*
-** 'set up' means target the buttons
-1. set up "Find Love" button
-- get input data
-- use input data to find match(es)
-- display matches on screen
-2. set up "Search" button
-- get search name
-- use search name to get data
-- display data
-3. set up "Random" buttons
-- get gender
-- use gender to get data until correct gender is found
-- display random match
-4. make it pretty
-- add favicon
-- display in lbs & feet
-- display message if no matches found
-- loading image
-- add theme
-
-Make number min to 0
-*/
 let $fromHeight = $('#from-height');
 let $toHeight = $('#to-height');
 let $fromWeight = $('#from-weight');
@@ -67,8 +44,7 @@ function getMatches() {
       
     } else {
       
-      responsiveVoice.speak(`We found ${matches.length} matches for you!`);
-      
+      responsiveVoice.speak(`We found ${matches.length} matches for you!`);      
       displayMatches();
           
     }
@@ -112,8 +88,8 @@ function singleSearch() {
 $nextBtn.click(() => {
   
   // check if user goes too far to the right
-  if (matches.length % MAX_RESULTS !== 0 &&
-  currentIndex + MAX_RESULTS > matches.length - MAX_RESULTS) {
+  if (matches.length % MAX_RESULTS !== 0 
+  && currentIndex + MAX_RESULTS > matches.length - MAX_RESULTS) {
       currentIndex += matches.length % MAX_RESULTS;
       
   } else {
@@ -125,8 +101,12 @@ $nextBtn.click(() => {
 });
 
 $prevBtn.click(() => {
-
-  currentIndex -= MAX_RESULTS;
+  
+  if (currentIndex === matches.length - MAX_RESULTS) {
+    currentIndex -= matches.length % MAX_RESULTS;
+  } else {
+    currentIndex -= MAX_RESULTS;
+  }
   
   displayMatches();
     
