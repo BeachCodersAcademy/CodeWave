@@ -14,7 +14,8 @@
 * **color-picker** - Press CMD+SHIFT+C (CTRL+SHIFT+C on Windows) to display a color picker
 * **pigments** - Displays the color of the hex/rgb values
 * **browser-refresh-on-save** - Automatically refreshes your HTML files in the browser
-* **auto-update-packages** - Automatically update your packages
+* **highlight-selected** - Creates a border around each matching word when you highlight it
+* **auto-update-packages** - Automatically update your packages (might not work anymore)
 
 If you want to turn autosave on:
 
