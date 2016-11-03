@@ -1,0 +1,9 @@
+body {
+  font-family: helvetica;
+  background-color: #d2d5fa;
+  text-align: center; 
+}
+
+.team-logo {
+  height: 200px;
+}

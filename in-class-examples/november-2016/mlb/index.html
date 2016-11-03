@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MLB</title>
+  
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Hairline|Oswald" rel="stylesheet">
+  
+  <!-- Embedded CSS -->
+  <style>
+  /* Will get overwritten! */
+  body {
+    background-color: blue;
+  }
+  </style>
+  
+  <style>
+  /* This is a CSS comment!
+  Cascading Style Sheets
+  1. Target (CSS Selector - can be tags, ids, classes, anything!)
+  2. Property to change
+  3. Value of the property to change to
+  
+  target {
+  property: value;
+  property: value;
+  ...
+}
+*/
+
+h3 {
+  color: red;
+  font-family: fantasy;
+}
+
+p {
+  color: yellow;
+}
+
+/*Pound signs denote ids*/
+#header {
+  background-color: orange;
+}
+
+/* Periods denote classes */
+.btn {
+  height: 30px;
+  background-color: #a5d479;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 3px;
+  font-size: 110%;
+}
+
+.bungee-hairline {
+  font-family: 'Bungee Hairline', cursive;
+}
+
+#title {
+  font-family: 'Bungee Hairline', cursive;
+}
+
+.large-font {
+  font-size: 32px;
+}
+
+</style>
+
+<link rel="stylesheet" href="css/styles.css">
+
+<!-- 
+This is an HTML comment!
+-->
+</head>
+<body>
+  
+  <div id="header" style="background-color: aliceblue;">
+    <h1 id="title">Major League Baseball!</h1>
+    <h3>World Series!</h3>
+  </div>
+  
+  <!-- Inline CSS -->
+  <p class="bungee-hairline large-font" style="color: purple; border: 2px solid black;">
+    Welcome to the World Series!
+    The Cubs won!
+  </p>
+  
+  <div id="buttons">
+    <a href="pages/teams.html">
+      <button class="btn">
+        Teams
+      </button>
+    </a>
+    
+    <a href="pages/history.html">
+      <button class="btn">
+        History
+      </button>
+    </a>
+    
+    <a href="pages/players.html">
+      <button class="btn">
+        Players
+      </button>
+    </a>
+  </div>
+  
+  <img src="img/banner.jpg" alt="Cubs vs Indians">
+  <br>
+  
+  <!-- <iframe src="http://m.mlb.com/gameday/cubs-vs-indians/2016/11/02/487637?partnerId=LR_gameday#game_tab=gameday,game=487637,game_state=live" frameborder="0" width="100%" height="800px"></iframe> -->
+  
+</body>
+</html>
