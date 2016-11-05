@@ -17,14 +17,19 @@
 * **highlight-selected** - Creates a border around each matching word when you highlight it
 * **auto-update-packages** - Automatically update your packages (might not work anymore)
 
-If you want to turn autosave on:
+To turn on Text Wrap:
+
+1. Go to Settings > Editor
+* Make sure 'Soft Wrap' is checked
+
+To turn on Autosave:
 
 1. Go to Settings > Packages
 * Search for *autosave*
 * Click on 'Settings' under the *autosave* package
 * Make sure *Enabled* is checked
 
-If you want to hide *.DS_Store* & *.git* files:
+To hide *.DS_Store* & *.git* files:
 
 1. Go to Settings > Packages
 * Search for *tree-view*
