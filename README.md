@@ -53,7 +53,7 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 **Notes:** comments, const, let, primitive data types: (number, string, boolean), pop ups: (alert, prompt, confirm), connecting .js to .html
 * Law of Variables: Variables are just 'pointers' to their values.
 * What denotes strings?
-* Law of Functions: The ENTIRE function call gets replace by the return value (if there is one).
+* Law of Functions: The ENTIRE function call gets replaced by the return value (if there is one).
 * What denotes function calls?
 
 ---
@@ -61,15 +61,14 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 #### Day 7: Control Flow - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/control_flow.md)
 **Notes:** if, else if, else, truthy, falsie, logical operators, nesting, ternary operator
 * How do you create an if-else statement?
-* What is an expression and how are they are evaluated?
+* What is a predicate?
 
 ---
 
 #### Day 8: Loops, Math & Date Objects, & Functions - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/loops.md)
-**Notes:** while, for, break, Math, Date
+**Notes:** while, for, break, Math, Date, hoisting, return, parameters vs arguments, default parameters
 * When do you use while loops?
 * When do you use for loops?
-**Function Notes:** hoisting, parameters vs arguments, default parameters
 * How do you declare a function, pass it arguments, and return values?
 * What are higher-order functions?
 * What does it mean when they say that functions are first-class citizens?
@@ -109,12 +108,16 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 
 ---
 
-#### Day 13: [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set), [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map), & [Class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+#### Day 13: forEach, map, filter, & reduce, [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set), [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map), & [Class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 **Notes:** constructor, this
 
 ---
 
-#### Day 14+: [React Setup](https://www.codecademy.com/articles/react-setup-i), [React Examples](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/react), JSX, Lifecycle Methods, props, state, styling, forms, Container vs Presentational Components, & Stateless Functional Components
+#### Day 14: Firebase - [Quickstart](https://github.com/firebase/quickstart-js)
+
+---
+
+#### Day 15+: [React Setup](https://www.codecademy.com/articles/react-setup-i), [React Examples](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/react), JSX, Lifecycle Methods, props, state, styling, forms, Container vs Presentational Components, & Stateless Functional Components
 **General Notes:** npm, webkit, require, module.exports
 **Prop Notes:** this.props.prop-name, event handler as props - onClick, this.props.children, getDefaultProps, prop types
 **State Notes:** getInitialState, this.state.stateName, setState
@@ -124,11 +127,8 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 #### Bonuses
 * terminal/command prompt
 * git
-* classes
-* Firebase - [Firebase Quickstart](https://github.com/firebase/quickstart-js)
 * Google Analytics
 * cookies
-* functional programming (forEach, map, filter, reduce)
 
 #### 2016 Web Design Trends:
 * Full width images, videos, & cinemagraphs
