@@ -10,5 +10,7 @@
 * Create an index.html page & make sure you link bundle.js (bundle.js is what webpack will create automatically (found in webpack.config.js))
 * Make a src folder in the root direcotry with an index.js file inside
 * In your index.js file have something render to index.html (i.e. `ReactDOM.render(<h1>Hello World!</h1>, document.getElementById('app'));`)
-* Run `webpack-dev-server` from the root directory - you should see your message in the console
+* Run `webpack` from the root directory of your project. This will transform files so that they can be run on any browser (i.e. JSX to JS)
+* Run `webpack-dev-server` from the root directory. This will start a local server. Go to the URL it tells you to go to (localhost:8080)
 * Inside the src folder create a components folder with an app.js file inside - this file is going to be the main component
+* Create any other component you need for your app and keep it in the components folder
