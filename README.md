@@ -2,7 +2,7 @@
 
 ### "There is no progress without struggle." -Frederick Douglass (and Christoph)
 
-Check out this [Web Development Mindmap](https://coggle.it/diagram/Vz9LvW8byvN0I38x) to connect the tools you hear about.
+Check out this [Web Development Mindmap](https://coggle.it/diagram/Vz9LvW8byvN0I38x) to connect the tools you hear about. Or if you want it explained to you watch it [here](https://www.youtube.com/watch?v=sBzRwzY7G-k).
 
 Read [this](https://medium.com/@addyosmani/totally-get-your-frustration-ea11adf237e3#.ch2epio1i) if you're feeling discouraged about learning new technologies.
 
