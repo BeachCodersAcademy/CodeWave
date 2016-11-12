@@ -77,11 +77,12 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 
 #### Day 9: Objects & Arrays - [objects assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/objects.md) [arrays assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/arrays.md)
 **Object Notes:** object creation, properties & values, dot notation, bracket notation, iteration (for in loop), add properties & values after object creation, methods
+**Array Notes:** list, array methods, iteration (for of loop), pass by reference vs pass by value
+
 * Can you use variables with Dot Notation?
 * What is the difference between a method and a function?
 * How do you add properties to an object after you have already created it?
 * Can you have an object inside an object (nest objects)?
-**Array Notes:** list, array methods, iteration (for of loop), pass by reference vs pass by value
 * How do you declare, insert, & retrieve elements from an array?
 * What does it mean when they say that arrays are pass-by-reference?
 
