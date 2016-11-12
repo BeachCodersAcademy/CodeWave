@@ -77,6 +77,7 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 
 #### Day 9: Objects & Arrays - [objects assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/objects.md) [arrays assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/arrays.md)
 **Object Notes:** object creation, properties & values, dot notation, bracket notation, iteration (for in loop), add properties & values after object creation, methods
+
 **Array Notes:** list, array methods, iteration (for of loop), pass by reference vs pass by value
 
 * Can you use variables with Dot Notation?
