@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Show Search</title>
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+  
+</head>
+<body>
+  
+  <div id="navbar" class="container-fluid">
+    
+    <div class="row">
+      <div class="col-md-4 col-md-offset-4">
+        <form class="form-inline">
+          <div class="form-group">
+            <select class="form-control">
+              <option value="shows">TV Show</option>
+              <option value="people">Person</option>
+            </select>
+          </div>          
+          <div class="form-group">
+            <input type="text" class="form-control" id="tv-show" placeholder="TV Show" autofocus>
+          </div>
+          <button id="search-btn" type="submit" class="btn btn-default">Search!</button>
+        </form>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="container text-center">
+    
+    <div id="show-container"></div>
+    
+  </div>
+  
+  <!-- jQuery -->
+  <script src="lib/jquery/jquery-3.1.1.min.js" charset="utf-8"></script>
+  
+  <!-- Bootstrap JS -->
+  <script src="lib/bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
+  
+  <!-- Custom JS -->
+  <script src="js/scripts.js" charset="utf-8"></script>
+  
+</body>
+</html>
