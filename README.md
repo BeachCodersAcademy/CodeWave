@@ -2,7 +2,7 @@
 
 ### "There is no progress without struggle." -Frederick Douglass (and Christoph)
 
-Check out this [Web Development Mindmap](https://coggle.it/diagram/Vz9LvW8byvN0I38x) to connect the tools you hear about.
+Check out this [Web Development Mindmap](https://coggle.it/diagram/Vz9LvW8byvN0I38x) to connect the tools you hear about. Or if you want it explained to you watch it [here](https://www.youtube.com/watch?v=sBzRwzY7G-k).
 
 Read [this](https://medium.com/@addyosmani/totally-get-your-frustration-ea11adf237e3#.ch2epio1i) if you're feeling discouraged about learning new technologies.
 
@@ -77,11 +77,13 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 
 #### Day 9: Objects & Arrays - [objects assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/objects.md) [arrays assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/arrays.md)
 **Object Notes:** object creation, properties & values, dot notation, bracket notation, iteration (for in loop), add properties & values after object creation, methods
+
+**Array Notes:** list, array methods, iteration (for of loop), pass by reference vs pass by value
+
 * Can you use variables with Dot Notation?
 * What is the difference between a method and a function?
 * How do you add properties to an object after you have already created it?
 * Can you have an object inside an object (nest objects)?
-**Array Notes:** list, array methods, iteration (for of loop), pass by reference vs pass by value
 * How do you declare, insert, & retrieve elements from an array?
 * What does it mean when they say that arrays are pass-by-reference?
 
