@@ -1,6 +1,6 @@
 # CodeWave
 
-### "There is no progress without struggle." -Frederick Douglass (and Christoph)
+### "There is no progress without struggle." -Frederick Douglass
 
 Check out this [Web Development Mindmap](https://coggle.it/diagram/Vz9LvW8byvN0I38x) to connect the tools you hear about. Or if you want it explained to you watch it [here](https://www.youtube.com/watch?v=sBzRwzY7G-k).
 
@@ -17,7 +17,7 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 ---
 
 #### Day 2: Forms & CSS ([CSS Cheat Sheet](https://www.smashingmagazine.com/wp-content/uploads/images/css3-cheat-sheet/css3-cheat-sheet.pdf)) - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/css.md)
-**Notes:** form tag, input types, submit button, attributes: (autofocus, name, placeholder, required), textarea, values,  selectors: (element, id, class, pseudo-classes), properties: (border, shadow, background, overflow, gradient), centering, Google Fonts
+**Notes:** form tag, action="javascript:void(0)", input types, submit button, attributes: (autofocus, name, placeholder, required), textarea, values,  selectors: (element, id, class, pseudo-classes), properties: (border, shadow, background, overflow, gradient), centering, Google Fonts
 * How do you create a proper form (what tags are needed)?
 * What is the difference between an ‘id’ and a ‘class’?
 * How do you target elements on a web page?
