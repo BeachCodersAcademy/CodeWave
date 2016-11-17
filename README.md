@@ -113,17 +113,19 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 
 ---
 
-#### Day 14: Firebase - [Quickstart](https://github.com/firebase/quickstart-js)
-
----
-
-#### Day 15: React Basics - [Examples](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/react)
+#### Day 14: React Basics - [Examples](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/react)
 **Notes:** JSX, Lifecycle Methods, props, styling, forms, Container vs Presentational Components, & Stateless Functional Components
 **Prop Notes:** this.props.prop-name, event handler as props - onClick, this.props.children, getDefaultProps, prop types
 
-#### Day 16: [React Setup](https://www.codecademy.com/articles/react-setup-i) & Routes
+---
+
+#### Day 15: [React Setup](https://www.codecademy.com/articles/react-setup-i) & Routes
 **Notes:** npm, webkit, require, module.exports
 **State Notes:** getInitialState, this.state.stateName, setState
+
+---
+
+#### Day 16: Firebase - [Quickstart](https://github.com/firebase/quickstart-js)
 
 ---
 
