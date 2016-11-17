@@ -112,6 +112,7 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 
 #### Day 13: forEach, map, filter, & reduce, [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set), [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map), & [Class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 **Notes:** constructor, this
+* What is the difference between an object and a class? - An object is an instantiation of a class.
 
 ---
 
