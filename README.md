@@ -114,14 +114,14 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 ---
 
 #### Day 14: React Basics - [Examples](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/react)
-**Notes:** JSX, Lifecycle Methods, props, styling, forms, Container vs Presentational Components, & Stateless Functional Components
+**Notes:** JSX, Lifecycle Methods, props, styling, Container vs Presentational Components, & Stateless Functional Components
 **Prop Notes:** this.props.prop-name, event handler as props - onClick, this.props.children, getDefaultProps, prop types
 **State Notes:** getInitialState, this.state.stateName, setState
 
 ---
 
 #### Day 15: [React Setup](https://www.codecademy.com/articles/react-setup-i), Routes, & Inputs
-**Notes:** npm, webkit, require, module.exports, routes, 404 error, ref
+**Notes:** npm, webkit, require, module.exports, routes, 404 error, ref, onSubmit
 
 ---
 
