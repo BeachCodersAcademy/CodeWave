@@ -4,15 +4,12 @@
 
 Check out this [Web Development Mindmap](https://coggle.it/diagram/Vz9LvW8byvN0I38x) to connect the tools you hear about. Or if you want it explained to you watch it [here](https://www.youtube.com/watch?v=sBzRwzY7G-k).
 
-Read [this](https://medium.com/@addyosmani/totally-get-your-frustration-ea11adf237e3#.ch2epio1i) if you're feeling discouraged about learning new technologies.
-
 In-class examples can be found [here](https://github.com/BeachCodersAcademy/CodeWave/tree/master/in-class-examples).
-
-[Recommended Atom Packages](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/atom_packages.md)
 
 ---
 
 #### Day 1: HTML ([HTML Cheat Sheet](http://www.cheat-sheets.org/saved-copy/html5-cheat-sheet.png)) - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/html.md)
+[Recommended Atom Packages](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/atom_packages.md)
 **Notes:** boiler plate, syntax, lists, buttons, tags: (p, h1-h6, div, hr, em, strong, img, input)
 * What are the neccesary (needed) tags for a working HTML file?
 * What is a `<div>` tag is and what it is for?
@@ -110,7 +107,7 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 
 ---
 
-#### Day 13: forEach, map, filter, & reduce, [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set), [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map), & [Class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+#### Day 13: forEach, map, & [Class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 **Notes:** constructor, this
 * What is the difference between an object and a class? - An object is an instantiation of a class.
 
@@ -120,9 +117,12 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 
 ---
 
-#### Day 15+: [React Setup](https://www.codecademy.com/articles/react-setup-i), [React Examples](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/react), JSX, Lifecycle Methods, props, state, styling, forms, Container vs Presentational Components, & Stateless Functional Components
-**General Notes:** npm, webkit, require, module.exports
+#### Day 15: React Basics - [Examples](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/react)
+**Notes:** JSX, Lifecycle Methods, props, styling, forms, Container vs Presentational Components, & Stateless Functional Components
 **Prop Notes:** this.props.prop-name, event handler as props - onClick, this.props.children, getDefaultProps, prop types
+
+#### Day 16: [React Setup](https://www.codecademy.com/articles/react-setup-i) & Routes
+**Notes:** npm, webkit, require, module.exports
 **State Notes:** getInitialState, this.state.stateName, setState
 
 ---
@@ -171,3 +171,73 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 * HTML, CSS, SASS, Bootstrap, JavaScript, React, jQuery, AJAX, JSON, Web Development, GitHub
 
 [.](https://drive.google.com/open?id=0B5dbRalQs2-sRE1Nd29uVUNqQUE)
+
+Answers:
+Day 1:
+* What are the neccesary (needed) tags for a working HTML file? - doctype, html, head, title, body
+* What is a `<div>` tag is and what it is for? - it is used to dividing sections of the document into more manageable parts
+
+Day 2:
+* How do you create a proper form (what tags are needed)?
+* What is the difference between an ‘id’ and a ‘class’?
+* How do you target elements on a web page?
+
+Day 3:
+* What is the difference between margin, padding, & border?
+* What is the difference between static, relative, absolute, & fixed?
+* How do transitions work (what do you target)?
+
+Day 4:
+* How do you correctly set up a grid layout?
+* How do you target specific elements of Bootstrap components?
+
+Day 5:
+* How do you make rows & columns within rows & columns?
+* What are the basic concepts of GitHub?
+
+Day 6:
+* Law of Variables: Variables are just 'pointers' to their values.
+* What denotes strings?
+* Law of Functions: The ENTIRE function call gets replaced by the return value (if there is one).
+* What denotes function calls?
+
+Day 7:
+* How do you create an if-else statement?
+* What is a predicate?
+
+Day 8:
+* When do you use while loops?
+* When do you use for loops?
+* How do you declare a function, pass it arguments, and return values?
+* What are higher-order functions?
+* What does it mean when they say that functions are first-class citizens?
+
+Day 9:
+* Can you use variables with Dot Notation?
+* What is the difference between a method and a function?
+* How do you add properties to an object after you have already created it?
+* Can you have an object inside an object (nest objects)?
+* How do you declare, insert, & retrieve elements from an array?
+* What does it mean when they say that arrays are pass-by-reference?
+
+Day 10:
+* How do you select HTML elements (DOM elements) using JavaScript?
+* How do you modify those elements?
+
+Day 11:
+* How do you select, modify, & create HTML elements using jQuery?
+* How do you handle events (click, mouseover, etc.) using jQuery?
+
+Day 12:
+* How do you make AJAX requests to APIs?
+* How do you display specific data the gets returned from from the request?
+
+Day 13:
+* What is the difference between an object and a class? - An object is an instantiation of a class.
+
+Day 14:
+
+
+Day 15:
+
+
