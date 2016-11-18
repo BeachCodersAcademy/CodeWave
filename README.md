@@ -25,7 +25,7 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 ---
 
 #### Day 3: Box Model, [Positioning](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/positioning.md), Transitions  - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/box_model_and_positioning.md)
-**Notes:** box model: (margin, padding, border), positioning: (static, relative, absolute, fixed), transitions, [command line](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/command-line.md)
+**Notes:** box model: (margin, padding, border), positioning: (static, relative, absolute, fixed), transitions
 * What is the difference between margin, padding, & border?
 * What is the difference between static, relative, absolute, & fixed?
 * How do transitions work (what do you target)?
@@ -118,7 +118,7 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 
 ---
 
-#### Day 15: [Beach Coder React Setup](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/react-setup.md), [Codecademy React Setup](https://www.codecademy.com/articles/react-setup-i), Routes, & Inputs
+#### Day 15: [command line](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/command-line.md), [Beach Coder React Setup](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/react-setup.md), [Codecademy React Setup](https://www.codecademy.com/articles/react-setup-i), Routes, & Inputs
 **Notes:** npm, webkit, require, module.exports, routes, 404 error, ref, onSubmit, React.findDOMNode(this.refs.####).value
 
 ---
