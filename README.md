@@ -118,7 +118,7 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 
 ---
 
-#### Day 15: [React Setup](https://www.codecademy.com/articles/react-setup-i), Routes, & Inputs
+#### Day 15: [Beach Coder React Setup](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/react-setup.md), [Codecademy React Setup](https://www.codecademy.com/articles/react-setup-i), Routes, & Inputs
 **Notes:** npm, webkit, require, module.exports, routes, 404 error, ref, onSubmit, React.findDOMNode(this.refs.####).value
 
 ---
