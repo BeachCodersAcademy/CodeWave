@@ -17,5 +17,5 @@ let React = require('react'); let ReactDOM = require('react-dom'); ReactDOM.rend
 
 * Run `webpack` from the root directory of your project. This will transform files so that they can be run on any browser (i.e. JSX to JS)
 * Run `webpack-dev-server` from the root directory. This will start a local server. Go to the URL it tells you to go to (localhost:8080)
-* Inside the src folder create a components folder with an app.js file inside - this file is going to be the main component
+* Inside the src folder create a components folder with an App.js file inside - this file is going to be the main component
 * Create any other component you need for your app and keep it in the components folder
