@@ -109,14 +109,12 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 
 #### Day 13: forEach, map, & [Class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 **Notes:** constructor, this
-* What is the difference between an object and a class? - An object is an instantiation of a class.
+* What is the difference between an object and a class?
 
 ---
 
 #### Day 14: React Basics - [Examples](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/react)
-**Notes:** JSX, Lifecycle Methods, props, styling, Container vs Presentational Components, & Stateless Functional Components
-**Prop Notes:** this.props.prop-name, event handler as props - onClick, this.props.children, getDefaultProps, prop types
-**State Notes:** getInitialState, this.state.stateName, setState
+**Notes:** JSX, render, ReactDOM, props, onClick & e.target, this.props.children, prop types, this.state.stateName, setState
 
 ---
 
