@@ -2,9 +2,9 @@
 
 **Make sure you have [Node JS](https://nodejs.org/en/) installed**
 
-- [ ] 1. Run `npm init` in your project's root directory (`npm init -y` for default project settings)
+1. Run `npm init` in your project's root directory (`npm init -y` for default project settings)
 
-- [ ] 2. Run `npm i -S react react-dom` to install dependencies (short for `npm install --save react react-dom`)
+2. Run `npm i -S react react-dom` to install dependencies (short for `npm install --save react react-dom`)
 
 3. Run `npm i -D babel-core babel-loader babel-preset-es2015 babel-preset-react react-hot-loader webpack webpack-dev-server` to install developer dependencies (short for `npm install --save-dev babel-core babel-loader...`)
 
@@ -16,11 +16,12 @@
 
 7. Make a src folder in the root direcotry with an index.js file inside
 
-8. In your index.js file have something render to index.html, i.e. 
+8. In your index.js file have something render to index.html, i.e:
 
 ```javascript
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 ReactDOM.render(
   <h1>Hello World!</h1>, 
   document.getElementById('app')
