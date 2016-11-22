@@ -2,9 +2,9 @@
 
 **Make sure you have [Node JS](https://nodejs.org/en/) installed**
 
-1. Run `npm init` in your project's root directory (`npm init -y` for default project settings)
+[]1. Run `npm init` in your project's root directory (`npm init -y` for default project settings)
 
-2. Run `npm i -S react react-dom` to install dependencies (short for `npm install --save react react-dom`)
+[ ]2. Run `npm i -S react react-dom` to install dependencies (short for `npm install --save react react-dom`)
 
 3. Run `npm i -D babel-core babel-loader babel-preset-es2015 babel-preset-react react-hot-loader webpack webpack-dev-server` to install developer dependencies (short for `npm install --save-dev babel-core babel-loader...`)
 
