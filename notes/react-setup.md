@@ -18,9 +18,9 @@
   npm i -D babel-core babel-loader babel-preset-es2015 babel-preset-react react-hot-loader webpack webpack-dev-server
   ```
 
-4. In your root directory create a webpack.config.js file with [this](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/webpack.config.js) inside
+4. In the root directory create a webpack.config.js file with [this](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/webpack.config.js) inside
 
-5. Create an index.html page & make sure you add a div with an id of 'app' (i.e. `<div id="app"></div>`) and a link bundle.js (bundle.js is what webpack will create automatically (found in webpack.config.js))
+5. In the root directory create an index.html page & make sure you add a div with an id of 'app' (i.e. `<div id="app"></div>`) and a link bundle.js (bundle.js is what webpack will create automatically (found in webpack.config.js))
 
 6. Make a src folder in the root direcotry with an index.js file inside
 
