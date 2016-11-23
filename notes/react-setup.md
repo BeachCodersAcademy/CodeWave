@@ -43,3 +43,6 @@
 10. Inside the src folder create a components folder with an App.js file inside - this file is going to be the main component
 
 11. Create any other component you need for your app and keep it in the components folder
+
+In the end your file structure should look like this:
+![React File Structure](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/images/react-file-structure.png)
