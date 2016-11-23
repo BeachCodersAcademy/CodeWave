@@ -1,8 +1,12 @@
 # This guide will get you started with setting up a new React project from scratch
 
 **Prerequisites:**
+
 1. Node JS - Install from [here](https://nodejs.org/en/). It doesn't matter which version you download. You can check if Node is installed by typing `node -v` into your command line interface (CLI). If it prints a version number you have Node installed.
+
 2. Webpack & Webpack Dev Server - Install with `npm i -g webpack webpack-dev-server`. You may have to prefix this command with `sudo` i.e. `sudo npm i -g webpack webpack-dev-server`. You can check if they are installed by typing `webpack -v` and `webpack-dev-server -v` into your command line interface. If they print version numbers you have webpack & webpack-dev-server installed.
+
+---
 
 1. Run `npm init` in your project's root directory (`npm init -y` for default project settings)
 
