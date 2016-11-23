@@ -63,7 +63,7 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 ---
 
 #### Day 8: Loops, Math & Date Objects, & Functions - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/loops.md)
-**Notes:** while, for, break, Math, Date, hoisting, return, parameters vs arguments, default parameters
+**Notes:** while, for, break, Math, Date, hoisting, return, parameters vs arguments, default parameters, global vs local variables
 * When do you use while loops?
 * When do you use for loops?
 * How do you declare a function, pass it arguments, and return values?
@@ -118,7 +118,7 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 
 ---
 
-#### Day 15: [command line](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/command-line.md), [Beach Coder React Setup](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/react-setup.md), [Codecademy React Setup](https://www.codecademy.com/articles/react-setup-i), Routes, & Inputs
+#### Day 15+: [command line](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/command-line.md), [Beach Coder React Setup](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/react-setup.md), [React Setup Explained](https://www.codecademy.com/articles/react-setup-i), Routes, & Inputs
 **Notes:** npm, webkit, require, module.exports, routes, 404 error, ref, onSubmit, React.findDOMNode(this.refs.####).value
 
 ---
