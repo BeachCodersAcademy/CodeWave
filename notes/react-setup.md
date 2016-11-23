@@ -6,9 +6,13 @@
 
 2. Run `npm i -S react react-dom` to install dependencies (short for `npm install --save react react-dom`)
 
-3. Run ```npm i -D babel-core babel-loader babel-preset-es2015 babel-preset-react react-hot-loader webpack webpack-dev-server``` to install developer dependencies (short for `npm install --save-dev babel-core babel-loader...`)
+3. Run 
+```npm i -D babel-core babel-loader babel-preset-es2015 babel-preset-react react-hot-loader webpack webpack-dev-server```
+to install developer dependencies (short for `npm install --save-dev babel-core babel-loader...`)
 
-4. Make sure you have webpack & webpack dev server installed globally (you only have to do this once). To install enter ```npm i -g webpack webpack-dev-server``` (you may have to prefix this command with `sudo` i.e. `sudo npm i -g webpack webpack-dev-server`)
+4. Make sure you have webpack & webpack dev server installed globally (you only have to do this once). To install enter 
+```npm i -g webpack webpack-dev-server``` 
+(you may have to prefix this command with `sudo` i.e. `sudo npm i -g webpack webpack-dev-server`)
 
 5. In your root directory create a webpack.config.js file with [this](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/webpack.config.js) inside
 
