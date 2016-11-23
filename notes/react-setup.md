@@ -22,7 +22,7 @@
 
 5. In the root directory create an index.html page & make sure you add a div with an id of 'app' (i.e. `<div id="app"></div>`) and a link bundle.js (bundle.js is what webpack will create automatically (found in webpack.config.js))
 
-6. Make a src folder in the root direcotry with an index.js file inside
+6. In the root directory make a src folder with an index.js file inside
 
 7. In your index.js file have something render to index.html, i.e:
 
