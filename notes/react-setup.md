@@ -10,7 +10,7 @@
 
 1. Run `npm init` in your project's root directory (`npm init -y` for default project settings)
 
-2. Run `npm i -S react react-dom` to install dependencies (short for `npm install --save react react-dom`)
+2. Run `npm i -S react react-dom bootstrap jquery` to install dependencies (short for `npm install --save react react-dom bootstrap jquery`)
 
 3. Run this to install developer dependencies (short for `npm install --save-dev babel-core babel-loader...`):
 
@@ -20,7 +20,7 @@
 
 4. In the root directory create a webpack.config.js file with [this](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/webpack.config.js) inside
 
-5. In the root directory create an index.html page & make sure you add a div with an id of 'app' (i.e. `<div id="app"></div>`) and a link bundle.js (bundle.js is what webpack will create automatically (found in webpack.config.js))
+5. In the root directory create an index.html page & make sure you add a div with an id of 'app' (i.e. `<div id="app"></div>`) and a link to bundle.js (bundle.js is what webpack will create automatically (found in webpack.config.js)). Then link Bootstrap and jQuery as found [here](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/react-index.html).
 
 6. In the root directory make a src folder with an index.js file inside
 
