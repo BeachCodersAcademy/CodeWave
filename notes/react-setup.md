@@ -10,7 +10,7 @@
 
 1. Run `npm init` in your project's root directory (`npm init -y` for default project settings)
 
-2. Run `npm i -S react react-dom bootstrap jquery` to install dependencies (short for `npm install --save react react-dom bootstrap jquery`)
+2. Run `npm i -S react react-dom bootstrap jquery` to install core dependencies (short for `npm install --save react react-dom bootstrap jquery`)
 
 3. Run this to install developer dependencies (short for `npm install --save-dev babel-core babel-loader...`):
 
