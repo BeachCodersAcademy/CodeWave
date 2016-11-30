@@ -63,7 +63,7 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 ---
 
 #### Day 8: Loops, Math & Date Objects, & Functions - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/loops.md)
-**Notes:** while, for, break, Math, Date, hoisting, return, parameters vs arguments, default parameters, global vs local variables
+**Notes:** while, for, break, Math, Date, hoisting, return, parameters vs arguments, default parameters, global vs local variables, [function declarations vs function expressions & hosting](https://javascriptweblog.wordpress.com/2010/07/06/function-declarations-vs-function-expressions/)
 * When do you use while loops?
 * When do you use for loops?
 * How do you declare a function, pass it arguments, and return values?
