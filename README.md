@@ -213,7 +213,7 @@ Day 8:
 * What does it mean when they say that functions are first-class citizens?
 
 Day 9:
-* Can you use variables with Dot Notation?
+* Can you use variables with Dot Notation? - You CAN NOT use variables with Dot Notation
 * What is the difference between a method and a function?
 * How do you add properties to an object after you have already created it?
 * Can you have an object inside an object (nest objects)?
