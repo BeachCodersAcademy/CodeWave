@@ -39,8 +39,8 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 
 ---
 
-#### Day 5: Bootstrap JavaScript & GitHub
-**Notes:** carousel, commit, sync
+#### Day 5: CSS Review, Floats, Flexbox, Bootstrap, JavaScript, & GitHub
+**Notes:** flexbox, carousel, commit, sync
 * How do you make rows & columns within rows & columns?
 * What are the basic concepts of GitHub?
 
