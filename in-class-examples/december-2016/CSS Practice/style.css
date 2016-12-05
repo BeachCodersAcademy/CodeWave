@@ -1,0 +1,16 @@
+.outsidebox {
+  width:70%;
+  margin:0 auto;
+  margin-top: 10px;
+  border: 4px solid magenta;
+  padding: 8px;
+}
+
+img {
+  width: 30%;
+  border-radius: 50%;
+}
+
+.imgwrapper {
+  text-align: center;
+}
