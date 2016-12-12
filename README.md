@@ -76,7 +76,7 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 
 > "Bad programmers worry about the code. Good programmers worry about data structures and their relationships."
 
-> —- Linus Torvalds
+> — Linus Torvalds
 
 **Object Notes:** object creation, properties & values, dot notation, bracket notation, iteration (for in loop), add properties & values after object creation, methods
 
