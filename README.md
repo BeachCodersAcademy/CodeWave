@@ -72,7 +72,12 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 
 ---
 
-#### Day 9: Objects & Arrays - [objects assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/objects.md) [arrays assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/arrays.md)
+#### Day 9: Data Structures -> Objects & Arrays - [objects assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/objects.md) [arrays assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/arrays.md)
+
+> "Bad programmers worry about the code.
+> Good programmers worry about data structures and their relationships."
+> - Linus Torvalds
+
 **Object Notes:** object creation, properties & values, dot notation, bracket notation, iteration (for in loop), add properties & values after object creation, methods
 
 **Array Notes:** list, array methods, iteration (for of loop), pass by reference vs pass by value
