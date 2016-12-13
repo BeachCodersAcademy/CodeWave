@@ -40,7 +40,7 @@ let boundFunction = talkFunction.bind(dog);
 
 boundFunction() // 'woof'
 
-realworld example
+//realworld example
 
 let button = document.getElementById('myButton')
 
@@ -49,3 +49,5 @@ button.addEventListener(
   'click',
   dog.talk.bind(dog)
 )
+
+

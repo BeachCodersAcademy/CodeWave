@@ -1,6 +1,6 @@
 //really important to understand this to understand objects
 
-//hear is a normal function
+//here is a normal function
 
 //remember this is a context.
 

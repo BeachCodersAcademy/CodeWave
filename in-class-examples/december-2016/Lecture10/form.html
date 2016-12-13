@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>JS Bin</title>
+  </head>
+
+  <body>
+    <form id="form1">
+      <label for="">First Name</label>
+      <input type="text" name="firstName" placeholder="enter name"><br>
+      <label for="">Last Name</label>
+      <input type="text" name="lastName" placeholder="enter last name">
+    </form>
+    <button id="my-button">Save</button>
+
+    <div id="add"></div>
+
+    <p>Click the save button on the form to display the name and value of each element in the form.</p>
+    <script>
+      let button = document.getElementById('my-button');
+
+      button.addEventListener("click", myFunction)
+
+      function myFunction() {
+        var myForm = document.getElementById('form1')
+        var text = '';
+        for (let i = 0; i < myForm.length; i++) {
+          text = text + myForm.elements[i].name + myForm.elements[i].value + '<br>';
+        }
+        document.getElementById('add').innerHTML = text;
+      }
+    </script>
+  </body>
+
+</html>
