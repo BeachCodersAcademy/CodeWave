@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form id="form1">
+  First name: <input type="text" name="first-name" placeholder="first-name"><br>
+  Last name: <input type="text" name="last-name" placeholder="first-name"><br><br>
+  <button onclick="formFunction()">Try it</button>
+</form> 
+
+<p>Click "form1" to display the name and value of each element in the form.</p>
+<p id="add"></p>
+
+<script>
+function formFunction() {
+    var x = document.getElementById("form1");
+    var text = "";
+    var i;
+    for (i = 0; i < x.length ;i++) {
+        text += x.elements[i].name + ' ' + x.elements[i].value + "<br>";
+    }
+    document.getElementById("add").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
+
+<!--reset form-->
+<script>
+function myFunction() {
+    document.getElementById("frm1").reset();
+}
+</script>
+
+
+
+<!--extra, bubbling and capturing-->
+<!--//https://javascript.info/tutorial/bubbling-and-capturing-->
+<!--https://www.kirupa.com/html5/event_capturing_bubbling_javascript.htm-->
+
+<!--//https://css-tricks.com/dangers-stopping-event-propagation/-->
+<!--$('html').click(function() {
+  // Hide the menus if visible.
+});
+
+$('#menucontainer').click(function(event){
+  event.stopPropagation();
+});
+In case it's not clear what this code is doing, here's a quick rundown: If a click event propagates to the <html> element, hide the menus. If the click event originated from inside #menucontainer, stop that event so it will never reach the <html> element, thus only clicks outside of #menucontainer will hide the menus.-->
