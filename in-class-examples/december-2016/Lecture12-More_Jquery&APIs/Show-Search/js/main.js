@@ -16,7 +16,12 @@ $(document).ready(function() {
   $('button').click(sendInput)
 
 
-  function sendInput() {
+  function sendInput(event) {
+
+
+    //prevent default action of submitting form
+    event.preventDefault();
+
     //grab value from input box
     let inputValue = $('.search-input').val()
 
@@ -32,11 +37,20 @@ $(document).ready(function() {
 
   //generalize this function
   function putDataInHTML(showData) {
-    console.log(showData.name);
+    console.log(showData);
     $('.movie-title').empty();
     $('.movie-title').append(showData.name);
+    console.log(typeof showData.premiered)
     $('.date-release').empty();
     $('.date-release').append(showData.premiered);
+    $('.movie-img').attr('src', showData.image.medium);
+    $('.summary>p').empty();
+    $('.summary>p').append(showData.summary);
+    $('.url>a').empty();
+    $('.url>a').append(showData.url);
+    $('.url>a').attr('href', showData.url);
+    $('.network-name>p').empty();
+    $('.network-name>p').append(showData.network.name);
   }
 
 
