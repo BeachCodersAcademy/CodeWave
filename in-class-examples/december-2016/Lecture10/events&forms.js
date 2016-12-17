@@ -1,12 +1,16 @@
-// The EventTarget.addEventListener() method 
-// registers the specified listener on the 
+// The EventTarget.addEventListener() method
+// registers the specified listener on the
 // EventTarget it's called on.
 //https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
 //example from link above
-<table id="outside">
-    <tr><td id="t1">one</td></tr>
-    <tr><td id="t2">two</td></tr>
-</table>
+<
+table id = "outside" >
+  <
+  tr > < td id = "t1" > one < /td></tr >
+  <
+  tr > < td id = "t2" > two < /td></tr >
+  <
+  /table>
 
 // Function to change the content of t2
 function modifyText() {
@@ -24,5 +28,3 @@ el.addEventListener("click", modifyText, false);
 
 //list of more events
 //https://developer.mozilla.org/en-US/docs/Web/Events
-
-
