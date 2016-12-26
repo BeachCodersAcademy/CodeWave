@@ -5,9 +5,9 @@ let path = require('path'); // manipulate path names more easily
 module.exports = {
   devtool: 'inline-source-map', // display line numbers for errors
   entry: [ // where webpack is going to look for our file
-    'webpack-dev-server/client?http://127.0.0.1:8080/',
-    'webpack/hot/only-dev-server',
-    './src'
+    './src',
+    'webpack/hot/dev-server',
+    'webpack-dev-server/client?http://127.0.0.1:8080/'
   ],
   output: {
     path: path.join(__dirname, 'public'),
@@ -21,7 +21,7 @@ module.exports = {
     loaders: [{
       test: /.jsx?$/,
       exclude: /node_modules/,
-      loaders: ['babel?presets[]=react,presets[]=es2015']
+      loaders: ['babel?presets[]=react,presets[]=es2015'],
     }]
   },
   plugins: [
