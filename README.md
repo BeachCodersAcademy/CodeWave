@@ -184,7 +184,7 @@ Day 1:
 * What is a `<div>` tag is and what it is for? - it is used to dividing sections of the document into more manageable parts
 
 Day 2:
-* How do you create a proper form (what tags are needed)? - all form elements should be inside a `form` tag and you must have a submit button
+* How do you create a proper form (what tags are needed)? - all form elements should be inside a `form` tag and you must have a submit button; each input element should have a name attribute that acts as a 'handler' for the input
 * What is the difference between an ‘id’ and a ‘class’? - you should only have one unique id per html file but you can have multiple classes
 * How do you target elements on a web page? - `document.getElementById` or `document.querySelector`
 
