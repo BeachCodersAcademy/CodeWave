@@ -119,16 +119,23 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 ---
 
 #### Day 14: React Basics - [Examples](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/react)
-**Notes:** JSX, render, ReactDOM, props, onClick & e.target, this.props.children, prop types, this.state.stateName, setState
+**Notes:** JSX, render, ReactDOM, props
 
 ---
 
-#### Day 15+: [command line](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/command-line.md), [Beach Coder React Setup](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/react-setup.md), [React Setup Explained](https://www.codecademy.com/articles/react-setup-i), Routes, & Inputs
-**Notes:** npm, webkit, require, module.exports, routes, 404 error, ref, onSubmit, React.findDOMNode(this.refs.####).value
+#### Day 15: React Intermediate - Methods & Components Rendering Components
+**Notes:** this.props.children, state, require, export default class, this.someMethod.bind(this)
 
 ---
 
-#### Day 16: Firebase - [Quickstart](https://github.com/firebase/quickstart-js)
+
+#### Day 16: React Forms
+**Notes:** onClick & e.target, ref, onSubmit, 
+
+---
+
+#### Day 17+: [command line](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/command-line.md), [Beach Coder React Setup](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/react-setup.md), [React Setup Explained](https://www.codecademy.com/articles/react-setup-i)
+**Notes:** npm, webkit, prop types
 
 ---
 
@@ -138,13 +145,7 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 * git
 * Google Analytics
 * cookies
-
-#### 2016 Web Design Trends:
-* Full width images, videos, & cinemagraphs
-* Split-screen layout
-* Monochromatic colors (dark backgrounds with vibrant elements)
-* Sticky calls to action (CTA) (i.e. "Join us on Facebook!").
-* Single column CTA (i.e. A headline, sub-headline, and button with plenty of white space around them).
+* Firebase - [Quickstart](https://github.com/firebase/quickstart-js)
 
 #### Questions to Answer About Your Site:
 * What is your target audience (age, sex, location, income, education, occupation, etc.)?
@@ -183,9 +184,9 @@ Day 1:
 * What is a `<div>` tag is and what it is for? - it is used to dividing sections of the document into more manageable parts
 
 Day 2:
-* How do you create a proper form (what tags are needed)?
-* What is the difference between an ‘id’ and a ‘class’?
-* How do you target elements on a web page?
+* How do you create a proper form (what tags are needed)? - all form elements should be inside a `form` tag and you must have a submit button
+* What is the difference between an ‘id’ and a ‘class’? - you should only have one unique id per html file but you can have multiple classes
+* How do you target elements on a web page? - `document.getElementById` or `document.querySelector`
 
 Day 3:
 * What is the difference between margin, padding, & border?
@@ -202,20 +203,21 @@ Day 5:
 
 Day 6:
 * Law of Variables: Variables are just 'pointers' to their values.
-* What denotes strings?
+* What are the primitive data types? - number, string, and boolean
+* What denotes strings? - quotation marks
 * Law of Functions: The ENTIRE function call gets replaced by the return value (if there is one).
-* What denotes function calls?
+* What denotes function calls? - the invocation operator `()`
 
 Day 7:
 * How do you create an if-else statement?
-* What is a predicate?
+* What is a predicate? - a statement that evaluates to _either_ true or false
 
 Day 8:
-* When do you use while loops?
-* When do you use for loops?
+* When do you use while loops? - when you do not know how many times you should loop
+* When do you use for loops? - when you know exactly how many times you should loop
 * How do you declare a function, pass it arguments, and return values?
-* What are higher-order functions?
-* What does it mean when they say that functions are first-class citizens?
+* What are higher-order functions? - functions that either take functions as arguments or return functions
+* What does it mean when they say that functions are first-class citizens? - functions are variables just like any other data type
 
 Day 9:
 * Can you use variables with Dot Notation? - You CAN NOT use variables with Dot Notation
@@ -239,10 +241,3 @@ Day 12:
 
 Day 13:
 * What is the difference between an object and a class? - An object is an instantiation of a class.
-
-Day 14:
-
-
-Day 15:
-
-
