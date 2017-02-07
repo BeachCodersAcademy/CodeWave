@@ -202,10 +202,8 @@ Day 5:
 * What are the basic concepts of GitHub?
 
 Day 6:
-* Law of Variables: Variables are just 'pointers' to their values.
 * What are the primitive data types? - number, string, and boolean
 * What denotes strings? - quotation marks
-* Law of Functions: The ENTIRE function call gets replaced by the return value (if there is one).
 * What denotes function calls? - the invocation operator `()`
 
 Day 7:
