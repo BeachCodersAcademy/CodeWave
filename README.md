@@ -9,7 +9,6 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 ---
 
 #### Day 1: HTML ([HTML Cheat Sheet](http://www.cheat-sheets.org/saved-copy/html5-cheat-sheet.png)) - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/html.md)
-[Recommended Atom Packages](https://github.com/BeachCodersAcademy/CodeWave/blob/master/notes/atom_packages.md)
 **Notes:** boiler plate, syntax, lists, buttons, tags: (p, h1-h6, div, hr, em, strong, img, input)
 * What are the neccesary (needed) tags for a working HTML file?
 * What is a `<div>` tag is and what it is for?
