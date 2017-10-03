@@ -4,7 +4,7 @@ If you want a crash course on HTML & CSS on your own time we highly HIGHLY recom
 
 Going through a course above will greatly help you finish the assignment and have a better grasp of the material.
 
-1. Create a new project (folder) inside your 'GitHub' folder and call it 'your name' (i.e. I would call it 'christoph')
+1. Create a new project (folder) inside your 'BeachCoders' folder and call it 'your name' (i.e. I would call it 'christoph')
 2. Inside this folder create a me.html file, a folder for images, and a folder for other html pages.
 3. In your me.html file create a super simple webpage containing information about yourself. Your me.html page must have: 
     * an image
