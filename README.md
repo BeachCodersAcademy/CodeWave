@@ -225,12 +225,12 @@ Day 9:
 * What does it mean when they say that arrays are pass-by-reference?
 
 Day 10:
-* How do you select HTML elements (DOM elements) using JavaScript?
-* How do you modify those elements?
+* How do you select HTML elements (DOM elements) using JavaScript? - document.querySelector() or document.getElementById()
+* How do you modify those elements? - use their methods and properties (.innherHTML, .style, .css(), etc)
 
 Day 11:
-* How do you select, modify, & create HTML elements using jQuery?
-* How do you handle events (click, mouseover, etc.) using jQuery?
+* How do you select, modify, & create HTML elements using jQuery? - using css selectors (i.e. $('div'), $('#footer'), etc)
+* How do you handle events (click, mouseover, etc.) using jQuery? - use jQuery methods and pass in a callback function
 
 Day 12:
 * How do you make AJAX requests to APIs?
