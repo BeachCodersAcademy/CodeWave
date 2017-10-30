@@ -175,8 +175,6 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 #### LinkedIn Endorsements:
 * HTML, CSS, SASS, Bootstrap, JavaScript, React, jQuery, AJAX, JSON, Web Development, GitHub
 
-[.](https://drive.google.com/open?id=0B5dbRalQs2-sRE1Nd29uVUNqQUE)
-
 Answers:
 Day 1:
 * What are the neccesary (needed) tags for a working HTML file? - doctype, html, head, title, body
@@ -188,13 +186,13 @@ Day 2:
 * How do you target elements on a web page? - `document.getElementById` or `document.querySelector`
 
 Day 3:
-* What is the difference between margin, padding, & border?
-* What is the difference between static, relative, absolute, & fixed?
-* How do transitions work (what do you target)?
+* What is the difference between margin, padding, & border? - padding is the space between the content and the border & margin is the space outside the border
+* What is the difference between static, relative, absolute, & fixed? - static is default (meaning no positioning), relative is 'relative to where the element should have been, absolute is relative to it's nearest positioned parent, and fixed is relative to the viewport
+* How do transitions work (what do you target)? - you set an action (like hover (i.e. div:hover) and then you add the transition property to the element (i.e. div)
 
 Day 4:
-* How do you correctly set up a grid layout?
-* How do you target specific elements of Bootstrap components?
+* How do you correctly set up a grid layout? - each column must be in a row & rows can have max 12 columns (nesting is possible)
+* How do you target specific elements of Bootstrap components? - check the inspector and see what CSS properties are applied
 
 Day 5:
 * How do you make rows & columns within rows & columns?
