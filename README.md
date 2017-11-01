@@ -218,11 +218,11 @@ Day 8:
 
 Day 9:
 * Can you use variables with Dot Notation? - You CAN NOT use variables with Dot Notation
-* What is the difference between a method and a function?
-* How do you add properties to an object after you have already created it?
-* Can you have an object inside an object (nest objects)?
-* How do you declare, insert, & retrieve elements from an array?
-* What does it mean when they say that arrays are pass-by-reference?
+* What is the difference between a method and a function? - a method is a function that is tied to an object
+* How do you add properties to an object after you have already created it? - use either dot notation or bracket notation (i.e. car.color = 'red' or car['color'] = 'red')
+* Can you have an object inside an object (nest objects)? - absolutely
+* How do you declare, insert, & retrieve elements from an array? - using bracket notation or array methods (i.e. push(), pop(), etc.)
+* What does it mean when they say that arrays are pass-by-reference? - when you reassign an array you are just copying a reference to the original array so if you change the second array you are also changing the first
 
 Day 10:
 * How do you select HTML elements (DOM elements) using JavaScript?
