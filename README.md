@@ -231,8 +231,8 @@ Day 11:
 * How do you handle events (click, mouseover, etc.) using jQuery? - use jQuery methods and pass in a callback function
 
 Day 12:
-* How do you make AJAX requests to APIs?
-* How do you display specific data the gets returned from from the request?
+* How do you make AJAX requests to APIs? - using jQuery or fetch
+* How do you display specific data the gets returned from from the request? - an object is returned from api requests so just use the response properties
 
 Day 13:
 * What is the difference between an object and a class? - An object is an instantiation of a class.
