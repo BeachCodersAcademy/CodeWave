@@ -6,3 +6,7 @@
 
 # Optional eslint cache
 **/.eslintcache
+
+# OS generated files
+.DS_Store
+.DS_Store?
