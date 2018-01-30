@@ -31,7 +31,7 @@ In-class examples can be found [here](https://github.com/BeachCodersAcademy/Code
 
 ---
 
-#### Day 4: Bootstrap - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/bootstrap.md)
+#### Day 4: Front-End CSS Frameworks - [assignment](https://github.com/BeachCodersAcademy/CodeWave/blob/master/assignments/bootstrap.md)
 **Notes:** container, grid (container -> row -> column), custom classes(text-center, img-responsive, & text-uppercase), btn, jumbotron, navbar, themes
 * How do you correctly set up a grid layout?
 * How do you target specific elements of Bootstrap components?
